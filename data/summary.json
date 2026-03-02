@@ -604,6 +604,10 @@
           "25°C": {
             "price": 0.14,
             "ts": "2026-03-02T11:53:36.525Z"
+          },
+          "26°C": {
+            "price": 0.12,
+            "ts": "2026-03-02T17:59:37.853Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-2-2026"
@@ -1350,6 +1354,10 @@
           "1°C": {
             "price": 0.12,
             "ts": "2026-03-02T10:07:23.695Z"
+          },
+          "4°C": {
+            "price": 0.14,
+            "ts": "2026-03-02T17:36:56.263Z"
           }
         },
         "slug": "highest-temperature-in-toronto-on-march-3-2026"
