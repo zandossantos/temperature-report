@@ -1122,6 +1122,10 @@
           "16°C": {
             "price": 0.047,
             "ts": "2026-03-02T10:10:59.301Z"
+          },
+          "13°C": {
+            "price": 0.14,
+            "ts": "2026-03-02T13:54:00.460Z"
           }
         },
         "slug": "highest-temperature-in-london-on-march-3-2026"
@@ -2194,6 +2198,20 @@
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-4-2026-48-49f"
+      }
+    },
+    "2026-78-79": {
+      "miami": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.14,
+            "ts": "2026-03-02T13:33:53.382Z"
+          }
+        },
+        "slug": "highest-temperature-in-miami-on-march-4-2026-78-79f"
       }
     }
   }
