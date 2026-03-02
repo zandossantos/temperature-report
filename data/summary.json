@@ -1166,6 +1166,10 @@
           "12°C or below": {
             "price": 0.004,
             "ts": "2026-03-02T10:13:31.482Z"
+          },
+          "16°C": {
+            "price": 0.14,
+            "ts": "2026-03-02T14:34:12.105Z"
           }
         },
         "slug": "highest-temperature-in-paris-on-march-3-2026"
@@ -1508,8 +1512,8 @@
             "ts": "2026-03-02T12:06:21.182Z"
           },
           "54-55°F": {
-            "price": 0.006,
-            "ts": "2026-03-02T02:44:40.738Z"
+            "price": 0.005,
+            "ts": "2026-03-02T14:23:17.166Z"
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-3-2026"
@@ -1594,6 +1598,10 @@
           "46°F or higher": {
             "price": 0.14,
             "ts": "2026-03-02T11:07:30.005Z"
+          },
+          "44-45°F": {
+            "price": 0.14,
+            "ts": "2026-03-02T14:29:10.212Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-3-2026"
@@ -1638,6 +1646,10 @@
           "11°C": {
             "price": 0.14,
             "ts": "2026-03-02T10:38:12.172Z"
+          },
+          "13°C": {
+            "price": 0.14,
+            "ts": "2026-03-02T14:54:24.331Z"
           }
         },
         "slug": "highest-temperature-in-ankara-on-march-3-2026"
@@ -1782,12 +1794,17 @@
       },
       "toronto": {
         "outcomes": [
+          "No",
           "Yes"
         ],
         "logged": {
           "Yes": {
             "price": 0.12,
             "ts": "2026-03-02T11:16:36.155Z"
+          },
+          "No": {
+            "price": 0.14,
+            "ts": "2026-03-02T14:54:43.228Z"
           }
         },
         "slug": "highest-temperature-in-toronto-on-march-4-2026-neg-3corbelow"
@@ -2212,6 +2229,20 @@
           }
         },
         "slug": "highest-temperature-in-miami-on-march-4-2026-78-79f"
+      }
+    },
+    "2026-84-85": {
+      "miami": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.14,
+            "ts": "2026-03-02T14:33:45.584Z"
+          }
+        },
+        "slug": "highest-temperature-in-miami-on-march-4-2026-84-85f"
       }
     }
   }
