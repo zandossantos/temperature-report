@@ -656,6 +656,10 @@
           "33°C": {
             "price": 0.14,
             "ts": "2026-03-02T15:46:43.545Z"
+          },
+          "32°C": {
+            "price": 0.14,
+            "ts": "2026-03-02T19:08:19.467Z"
           }
         },
         "slug": "highest-temperature-in-buenos-aires-on-march-2-2026"
@@ -1010,8 +1014,8 @@
             "ts": "2026-03-02T10:10:50.141Z"
           },
           "40-41°F": {
-            "price": 0.14,
-            "ts": "2026-03-01T20:07:23.880Z"
+            "price": 0.12,
+            "ts": "2026-03-02T19:49:17.857Z"
           },
           "33°F or below": {
             "price": 0.003,
@@ -1406,6 +1410,10 @@
           "56°F or higher": {
             "price": 0.13,
             "ts": "2026-03-02T10:07:22.273Z"
+          },
+          "50-51°F": {
+            "price": 0.14,
+            "ts": "2026-03-02T19:54:46.290Z"
           }
         },
         "slug": "highest-temperature-in-seattle-on-march-3-2026"
@@ -2056,6 +2064,18 @@
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-4-2026-66-67f"
+      },
+      "dallas": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.005,
+            "ts": "2026-03-02T19:39:15.165Z"
+          }
+        },
+        "slug": "highest-temperature-in-dallas-on-march-4-2026-66-67f"
       }
     },
     "2026-34-35": {
@@ -2138,6 +2158,18 @@
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-4-2026-68-69f"
+      },
+      "dallas": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.007,
+            "ts": "2026-03-02T19:37:51.163Z"
+          }
+        },
+        "slug": "highest-temperature-in-dallas-on-march-4-2026-68-69f"
       }
     },
     "2026-76-77": {
@@ -2312,6 +2344,20 @@
           }
         },
         "slug": "highest-temperature-in-miami-on-march-4-2026-84-85f"
+      }
+    },
+    "2026-72-73": {
+      "dallas": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.06,
+            "ts": "2026-03-02T19:07:49.361Z"
+          }
+        },
+        "slug": "highest-temperature-in-dallas-on-march-4-2026-72-73f"
       }
     }
   }
