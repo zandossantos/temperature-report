@@ -12,6 +12,32 @@
           }
         },
         "slug": "highest-temperature-in-paris-on-march-2-2026"
+      },
+      "seattle": {
+        "outcomes": [
+          "54-55°F"
+        ],
+        "logged": {
+          "54-55°F": {
+            "price": 0.001,
+            "ts": "2026-03-02T23:39:16.177Z"
+          }
+        },
+        "slug": "highest-temperature-in-seattle-on-march-2-2026"
+      }
+    },
+    "2026-03-04": {
+      "paris": {
+        "outcomes": [
+          "20°C"
+        ],
+        "logged": {
+          "20°C": {
+            "price": 0.13,
+            "ts": "2026-03-02T23:38:21.294Z"
+          }
+        },
+        "slug": "highest-temperature-in-paris-on-march-4-2026"
       }
     }
   }
