@@ -529,6 +529,10 @@
           "60-61°F": {
             "price": 0.011,
             "ts": "2026-03-02T23:20:28.927Z"
+          },
+          "58-59°F": {
+            "price": 0.005,
+            "ts": "2026-03-02T23:23:42.927Z"
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-3-2026"
@@ -675,6 +679,14 @@
           "12°C or below": {
             "price": 0.018,
             "ts": "2026-03-02T23:22:27.169Z"
+          },
+          "17°C": {
+            "price": 0.13,
+            "ts": "2026-03-02T23:23:58.160Z"
+          },
+          "13°C": {
+            "price": 0.07,
+            "ts": "2026-03-02T23:24:01.189Z"
           }
         },
         "slug": "highest-temperature-in-london-on-march-4-2026"
@@ -985,6 +997,10 @@
           "19°C": {
             "price": 0.13,
             "ts": "2026-03-02T23:21:01.167Z"
+          },
+          "15°C": {
+            "price": 0.08,
+            "ts": "2026-03-02T23:23:58.183Z"
           }
         },
         "slug": "highest-temperature-in-wellington-on-march-4-2026"
