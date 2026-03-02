@@ -1,0 +1,5 @@
+{
+  "buildCommand": "node scripts/build-report.js",
+  "outputDirectory": "public",
+  "installCommand": "echo No install needed"
+}

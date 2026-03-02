@@ -1,0 +1,7 @@
+# Only ignore OS/editor junk. We WANT data/summary.json and scripts/ in the repo.
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
