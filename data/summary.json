@@ -2079,6 +2079,18 @@
           }
         },
         "slug": "highest-temperature-in-seattle-on-march-5-2026-40-41f"
+      },
+      "nyc": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.14,
+            "ts": "2026-03-03T16:32:52.365Z"
+          }
+        },
+        "slug": "highest-temperature-in-nyc-on-march-5-2026-40-41f"
       }
     },
     "2026-70-71": {
