@@ -1781,6 +1781,18 @@
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-5-2026-37forbelow"
+      },
+      "seattle": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.1,
+            "ts": "2026-03-03T12:06:17.313Z"
+          }
+        },
+        "slug": "highest-temperature-in-seattle-on-march-5-2026-54forhigher"
       }
     },
     "2026-72-73": {
@@ -1983,6 +1995,20 @@
           }
         },
         "slug": "highest-temperature-in-dallas-on-march-5-2026-88-89f"
+      }
+    },
+    "2026-86-87": {
+      "dallas": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.07,
+            "ts": "2026-03-03T12:06:16.736Z"
+          }
+        },
+        "slug": "highest-temperature-in-dallas-on-march-5-2026-86-87f"
       }
     }
   }
