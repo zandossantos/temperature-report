@@ -895,7 +895,7 @@
           },
           "84-85°F": {
             "price": 0.004,
-            "ts": "2026-03-03T21:32:20.167Z"
+            "ts": "2026-03-03T21:43:09.173Z"
           },
           "76-77°F": {
             "price": 0.019,
@@ -2149,6 +2149,10 @@
           "52°F or higher": {
             "price": 0.12,
             "ts": "2026-03-03T21:37:57.182Z"
+          },
+          "40-41°F": {
+            "price": 0.14,
+            "ts": "2026-03-03T21:42:31.168Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-5-2026-37forbelow"
@@ -2178,6 +2182,10 @@
           "42-43°F": {
             "price": 0.01,
             "ts": "2026-03-03T21:39:27.168Z"
+          },
+          "46-47°F": {
+            "price": 0.13,
+            "ts": "2026-03-03T21:42:44.319Z"
           }
         },
         "slug": "highest-temperature-in-seattle-on-march-5-2026-54forhigher"
@@ -2203,6 +2211,10 @@
           "76-77°F": {
             "price": 0.089,
             "ts": "2026-03-03T21:35:04.866Z"
+          },
+          "84-85°F": {
+            "price": 0.13,
+            "ts": "2026-03-03T21:42:18.182Z"
           }
         },
         "slug": "highest-temperature-in-miami-on-march-5-2026-86forhigher"
