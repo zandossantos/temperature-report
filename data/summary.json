@@ -1859,6 +1859,18 @@
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-5-2026-76-77f"
+      },
+      "miami": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.09,
+            "ts": "2026-03-03T12:08:09.161Z"
+          }
+        },
+        "slug": "highest-temperature-in-miami-on-march-5-2026-76-77f"
       }
     },
     "2026-78-79": {
@@ -2009,6 +2021,34 @@
           }
         },
         "slug": "highest-temperature-in-dallas-on-march-5-2026-86-87f"
+      }
+    },
+    "2026-42-43": {
+      "seattle": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.019,
+            "ts": "2026-03-03T12:09:28.963Z"
+          }
+        },
+        "slug": "highest-temperature-in-seattle-on-march-5-2026-42-43f"
+      }
+    },
+    "2026-48-49": {
+      "nyc": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.1,
+            "ts": "2026-03-03T12:09:49.786Z"
+          }
+        },
+        "slug": "highest-temperature-in-nyc-on-march-5-2026-48-49f"
       }
     }
   }
