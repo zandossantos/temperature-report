@@ -410,6 +410,10 @@
           "29°C": {
             "price": 0.12,
             "ts": "2026-03-03T00:15:40.204Z"
+          },
+          "33°C or higher": {
+            "price": 0.005,
+            "ts": "2026-03-03T00:27:45.071Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-3-2026"
@@ -678,6 +682,14 @@
           "58-59°F": {
             "price": 0.006,
             "ts": "2026-03-03T00:18:26.136Z"
+          },
+          "52-53°F": {
+            "price": 0.006,
+            "ts": "2026-03-03T00:27:39.807Z"
+          },
+          "47°F or below": {
+            "price": 0.005,
+            "ts": "2026-03-03T00:27:39.825Z"
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-3-2026"
@@ -710,6 +722,14 @@
           "86-87°F": {
             "price": 0.018,
             "ts": "2026-03-03T00:03:48.339Z"
+          },
+          "88°F or higher": {
+            "price": 0.006,
+            "ts": "2026-03-03T00:27:39.777Z"
+          },
+          "73°F or below": {
+            "price": 0.005,
+            "ts": "2026-03-03T00:27:39.830Z"
           }
         },
         "slug": "highest-temperature-in-miami-on-march-3-2026"
@@ -738,6 +758,18 @@
           "36-37°F": {
             "price": 0.014,
             "ts": "2026-03-03T00:03:39.159Z"
+          },
+          "34-35°F": {
+            "price": 0.006,
+            "ts": "2026-03-03T00:26:21.167Z"
+          },
+          "31°F or below": {
+            "price": 0.004,
+            "ts": "2026-03-03T00:26:21.182Z"
+          },
+          "32-33°F": {
+            "price": 0.002,
+            "ts": "2026-03-03T00:26:21.192Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-3-2026"
@@ -904,6 +936,10 @@
           "26°C": {
             "price": 0.12,
             "ts": "2026-03-03T00:16:37.165Z"
+          },
+          "33°C or higher": {
+            "price": 0.009,
+            "ts": "2026-03-03T00:27:39.813Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-4-2026"
@@ -1084,6 +1120,10 @@
           "33°F or below": {
             "price": 0.003,
             "ts": "2026-03-03T00:20:22.664Z"
+          },
+          "38-39°F": {
+            "price": 0.008,
+            "ts": "2026-03-03T00:27:39.789Z"
           }
         },
         "slug": "highest-temperature-in-nyc-on-march-4-2026"
@@ -1108,6 +1148,10 @@
           "64-65°F": {
             "price": 0.004,
             "ts": "2026-03-03T00:22:38.262Z"
+          },
+          "70-71°F": {
+            "price": 0.009,
+            "ts": "2026-03-03T00:27:39.800Z"
           }
         },
         "slug": "highest-temperature-in-dallas-on-march-4-2026"
