@@ -660,6 +660,10 @@
           "-1°C": {
             "price": 0.006,
             "ts": "2026-03-03T00:09:02.183Z"
+          },
+          "1°C": {
+            "price": 0.14,
+            "ts": "2026-03-03T17:03:37.808Z"
           }
         },
         "slug": "highest-temperature-in-toronto-on-march-3-2026"
@@ -796,6 +800,10 @@
           "72-73°F": {
             "price": 0.004,
             "ts": "2026-03-03T00:11:50.237Z"
+          },
+          "82-83°F": {
+            "price": 0.14,
+            "ts": "2026-03-03T17:03:59.035Z"
           }
         },
         "slug": "highest-temperature-in-dallas-on-march-3-2026"
@@ -1522,6 +1530,10 @@
           "90°F or higher": {
             "price": 0.006,
             "ts": "2026-03-03T02:18:29.031Z"
+          },
+          "78-79°F": {
+            "price": 0.14,
+            "ts": "2026-03-03T17:03:21.612Z"
           }
         },
         "slug": "highest-temperature-in-miami-on-march-4-2026"
