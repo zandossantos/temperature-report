@@ -108,10 +108,24 @@ function buildHtml(summary) {
       d.textContent = s;
       return d.innerHTML;
     }
-    function formatDateHeader(isoDate) {
-      const parts = isoDate.split('-');
-      const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-      return months[parseInt(parts[1], 10) - 1] + ' ' + parseInt(parts[2], 10) + ', ' + parts[0];
+    function formatTs(ts) {
+      if (!ts) return '';
+      var d = new Date(ts);
+      if (isNaN(d.getTime())) return ts;
+      return d.toLocaleString(undefined, { dateStyle: 'short', timeStyle: 'short' });
+    }
+    function formatDateHeader(dateKey) {
+      if (!dateKey || typeof dateKey !== 'string') return dateKey || 'Unknown date';
+      const parts = dateKey.split('-');
+      if (parts.length >= 3) {
+        const year = parts[0];
+        const monthNum = parseInt(parts[1], 10);
+        const day = parseInt(parts[2], 10);
+        const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const monthName = months[monthNum - 1];
+        if (monthName && !isNaN(day) && year.length === 4) return monthName + ' ' + day + ', ' + year;
+      }
+      return dateKey;
     }
     let totalPairs = 0;
     const sectionsEl = document.getElementById('sections');
@@ -132,7 +146,7 @@ function buildHtml(summary) {
         const missingList = r.missing.map(o => '<span class="miss">' + escapeHtml(o) + '</span>').join(', ');
         const detailsHtml = r.outcomes.map(o => {
           const v = r.logged.find(x => x[0] === o)?.[1];
-          if (v) return '<span class="ok">' + escapeHtml(o) + '</span> ' + (v.price != null ? (v.price * 100).toFixed(1) + '¢' : '') + (v.ts ? ' <span class="ts">' + v.ts + '</span>' : '');
+          if (v) return '<span class="ok">' + escapeHtml(o) + '</span> ' + (v.price != null ? (v.price * 100).toFixed(1) + '¢' : '') + (v.ts ? ' <span class="ts">' + escapeHtml(formatTs(v.ts)) + '</span>' : '');
           return '<span class="miss">' + escapeHtml(o) + '</span>';
         }).join('<br>');
         const eventCell = r.slug
