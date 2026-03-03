@@ -2066,6 +2066,20 @@
         },
         "slug": "highest-temperature-in-nyc-on-march-5-2026-48-49f"
       }
+    },
+    "2026-84-85": {
+      "dallas": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.11,
+            "ts": "2026-03-03T12:16:24.162Z"
+          }
+        },
+        "slug": "highest-temperature-in-dallas-on-march-5-2026-84-85f"
+      }
     }
   }
 }
