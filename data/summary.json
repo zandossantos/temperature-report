@@ -1205,6 +1205,10 @@
           "46-47°F": {
             "price": 0.017,
             "ts": "2026-03-03T01:19:52.112Z"
+          },
+          "43°F or below": {
+            "price": 0.005,
+            "ts": "2026-03-03T01:58:39.284Z"
           }
         },
         "slug": "highest-temperature-in-seattle-on-march-4-2026"
