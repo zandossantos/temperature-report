@@ -1373,6 +1373,10 @@
           "20°C or higher": {
             "price": 0.037,
             "ts": "2026-03-03T00:08:51.563Z"
+          },
+          "16°C": {
+            "price": 0.14,
+            "ts": "2026-03-03T01:00:55.513Z"
           }
         },
         "slug": "highest-temperature-in-wellington-on-march-4-2026"
