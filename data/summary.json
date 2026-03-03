@@ -1365,6 +1365,10 @@
           "68-69°F": {
             "price": 0.005,
             "ts": "2026-03-03T04:24:39.536Z"
+          },
+          "57°F or below": {
+            "price": 0.004,
+            "ts": "2026-03-03T04:26:27.194Z"
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-4-2026"
