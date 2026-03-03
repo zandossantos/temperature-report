@@ -1979,6 +1979,18 @@
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-5-2026-40-41f"
+      },
+      "seattle": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.008,
+            "ts": "2026-03-03T12:12:39.953Z"
+          }
+        },
+        "slug": "highest-temperature-in-seattle-on-march-5-2026-40-41f"
       }
     },
     "2026-70-71": {
