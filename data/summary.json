@@ -180,6 +180,10 @@
           "-4°C": {
             "price": 0.028,
             "ts": "2026-03-03T00:06:36.834Z"
+          },
+          "-1°C or higher": {
+            "price": 0.001,
+            "ts": "2026-03-03T00:34:05.017Z"
           }
         },
         "slug": "highest-temperature-in-toronto-on-march-2-2026"
@@ -888,6 +892,14 @@
           "13°C": {
             "price": 0.07,
             "ts": "2026-03-03T00:23:03.165Z"
+          },
+          "20°C or higher": {
+            "price": 0.003,
+            "ts": "2026-03-03T00:35:46.169Z"
+          },
+          "19°C": {
+            "price": 0.003,
+            "ts": "2026-03-03T00:35:46.180Z"
           }
         },
         "slug": "highest-temperature-in-london-on-march-4-2026"
@@ -1024,6 +1036,10 @@
           "4°C": {
             "price": 0.005,
             "ts": "2026-03-03T00:11:49.565Z"
+          },
+          "3°C": {
+            "price": 0.005,
+            "ts": "2026-03-03T00:35:23.172Z"
           }
         },
         "slug": "highest-temperature-in-seoul-on-march-4-2026"
