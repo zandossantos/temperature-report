@@ -863,6 +863,10 @@
           "32-33°F": {
             "price": 0.002,
             "ts": "2026-03-03T00:26:21.192Z"
+          },
+          "40-41°F": {
+            "price": 0.14,
+            "ts": "2026-03-03T02:46:54.972Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-3-2026"
