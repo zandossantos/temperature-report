@@ -1,55 +1,5 @@
 {
   "by_date": {
-    "2026": {
-      "c": {
-        "outcomes": [
-          "1.05–1.09ºC",
-          "1.10–1.14ºC",
-          "1.15–1.19ºC",
-          "1.20–1.24ºC",
-          "1.25–1.29ºC",
-          "<1.05ºC",
-          "<1.10ºC",
-          ">1.24ºC",
-          ">1.29ºC"
-        ],
-        "logged": {
-          ">1.29ºC": {
-            "price": 0.056,
-            "ts": "2026-03-03T00:04:11.180Z"
-          },
-          "<1.05ºC": {
-            "price": 0.005,
-            "ts": "2026-03-03T00:05:57.353Z"
-          },
-          "1.05–1.09ºC": {
-            "price": 0.057,
-            "ts": "2026-03-03T00:12:07.110Z"
-          },
-          "1.25–1.29ºC": {
-            "price": 0.1,
-            "ts": "2026-03-03T00:22:07.285Z"
-          },
-          ">1.24ºC": {
-            "price": 0.049,
-            "ts": "2026-03-03T00:59:26.797Z"
-          },
-          "1.10–1.14ºC": {
-            "price": 0.137,
-            "ts": "2026-03-03T12:14:34.472Z"
-          },
-          "1.15–1.19ºC": {
-            "price": 0.14,
-            "ts": "2026-03-03T14:12:11.084Z"
-          },
-          "1.20–1.24ºC": {
-            "price": 0.14,
-            "ts": "2026-03-03T19:36:04.390Z"
-          }
-        },
-        "slug": "march-2026-temperature-increase-c"
-      }
-    },
     "2026-02-26": {
       "chicago": {
         "outcomes": [
@@ -575,7 +525,7 @@
           },
           "30°C": {
             "price": 0.003,
-            "ts": "2026-03-03T21:35:17.191Z"
+            "ts": "2026-03-03T21:47:52.166Z"
           },
           "28°C": {
             "price": 0.001,
@@ -662,8 +612,8 @@
             "ts": "2026-03-03T21:39:23.325Z"
           },
           "5°C": {
-            "price": 0.009,
-            "ts": "2026-03-03T21:45:33.179Z"
+            "price": 0.002,
+            "ts": "2026-03-03T21:47:54.443Z"
           },
           "6°C or higher": {
             "price": 0.005,
@@ -822,8 +772,8 @@
             "ts": "2026-03-03T00:11:50.237Z"
           },
           "82-83°F": {
-            "price": 0.09,
-            "ts": "2026-03-03T21:41:20.978Z"
+            "price": 0.06,
+            "ts": "2026-03-03T21:47:49.695Z"
           }
         },
         "slug": "highest-temperature-in-dallas-on-march-3-2026"
@@ -1177,7 +1127,7 @@
           },
           "31°C": {
             "price": 0.008,
-            "ts": "2026-03-03T21:39:07.628Z"
+            "ts": "2026-03-03T21:47:49.760Z"
           },
           "26°C": {
             "price": 0.11,
@@ -1192,8 +1142,8 @@
             "ts": "2026-03-03T21:39:07.204Z"
           },
           "30°C": {
-            "price": 0.11,
-            "ts": "2026-03-03T21:36:07.165Z"
+            "price": 0.1,
+            "ts": "2026-03-03T21:47:49.738Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-4-2026"
@@ -1212,8 +1162,8 @@
         ],
         "logged": {
           "35°C": {
-            "price": 0.09,
-            "ts": "2026-03-03T21:35:25.152Z"
+            "price": 0.11,
+            "ts": "2026-03-03T21:47:55.723Z"
           },
           "36°C": {
             "price": 0.025,
@@ -1309,7 +1259,7 @@
           },
           "1°C": {
             "price": 0.005,
-            "ts": "2026-03-03T21:35:04.947Z"
+            "ts": "2026-03-03T21:47:49.752Z"
           },
           "-3°C or below": {
             "price": 0.004,
@@ -1592,8 +1542,8 @@
             "ts": "2026-03-03T21:35:10.180Z"
           },
           "42-43°F": {
-            "price": 0.1,
-            "ts": "2026-03-03T21:35:25.169Z"
+            "price": 0.08,
+            "ts": "2026-03-03T21:47:53.709Z"
           },
           "36-37°F": {
             "price": 0.005,
@@ -1680,12 +1630,12 @@
             "ts": "2026-03-03T00:04:54.158Z"
           },
           "19°C": {
-            "price": 0.05,
-            "ts": "2026-03-03T21:35:04.882Z"
+            "price": 0.04,
+            "ts": "2026-03-03T21:47:49.680Z"
           },
           "20°C or higher": {
-            "price": 0.023,
-            "ts": "2026-03-03T21:36:42.973Z"
+            "price": 0.025,
+            "ts": "2026-03-03T21:48:00.957Z"
           },
           "16°C": {
             "price": 0.08,
@@ -1697,20 +1647,6 @@
           }
         },
         "slug": "highest-temperature-in-wellington-on-march-4-2026"
-      }
-    },
-    "2026-36-37": {
-      "nyc": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.006,
-            "ts": "2026-03-03T12:02:59.169Z"
-          }
-        },
-        "slug": "highest-temperature-in-nyc-on-march-5-2026-36-37f"
       }
     },
     "2026-03-05": {
@@ -1737,8 +1673,8 @@
             "ts": "2026-03-03T21:39:44.428Z"
           },
           "27°C": {
-            "price": 0.1,
-            "ts": "2026-03-03T21:38:56.166Z"
+            "price": 0.09,
+            "ts": "2026-03-03T21:47:55.501Z"
           },
           "25°C or below": {
             "price": 0.04,
@@ -1873,8 +1809,8 @@
         ],
         "logged": {
           "Yes": {
-            "price": 0.018,
-            "ts": "2026-03-03T12:03:02.785Z"
+            "price": 0.11,
+            "ts": "2026-03-03T12:16:24.162Z"
           },
           "75°F or below": {
             "price": 0.07,
@@ -1932,8 +1868,8 @@
             "ts": "2026-03-03T12:03:23.160Z"
           },
           "15°C": {
-            "price": 0.05,
-            "ts": "2026-03-03T21:36:36.184Z"
+            "price": 0.049,
+            "ts": "2026-03-03T21:47:57.013Z"
           },
           "14°C": {
             "price": 0.016,
@@ -1957,8 +1893,8 @@
         ],
         "logged": {
           "Yes": {
-            "price": 0.09,
-            "ts": "2026-03-03T12:03:33.164Z"
+            "price": 0.1,
+            "ts": "2026-03-03T12:09:49.786Z"
           },
           "48-49°F": {
             "price": 0.093,
@@ -2024,11 +1960,11 @@
           },
           "7°C": {
             "price": 0.03,
-            "ts": "2026-03-03T21:38:56.186Z"
+            "ts": "2026-03-03T21:47:54.215Z"
           },
           "13°C or higher": {
-            "price": 0.08,
-            "ts": "2026-03-03T21:35:34.488Z"
+            "price": 0.09,
+            "ts": "2026-03-03T21:48:01.391Z"
           },
           "8°C": {
             "price": 0.06,
@@ -2107,6 +2043,10 @@
           "37°C": {
             "price": 0.14,
             "ts": "2026-03-03T21:45:26.269Z"
+          },
+          "38°C": {
+            "price": 0.14,
+            "ts": "2026-03-03T21:46:11.385Z"
           }
         },
         "slug": "highest-temperature-in-lucknow-on-march-5-2026-42corhigher"
@@ -2126,8 +2066,8 @@
         ],
         "logged": {
           "Yes": {
-            "price": 0.006,
-            "ts": "2026-03-03T12:04:19.783Z"
+            "price": 0.008,
+            "ts": "2026-03-03T12:05:23.171Z"
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-5-2026-67forbelow"
@@ -2147,8 +2087,8 @@
         ],
         "logged": {
           "Yes": {
-            "price": 0.007,
-            "ts": "2026-03-03T12:04:19.921Z"
+            "price": 0.14,
+            "ts": "2026-03-03T13:21:29.749Z"
           },
           "50-51°F": {
             "price": 0.115,
@@ -2180,8 +2120,8 @@
         ],
         "logged": {
           "Yes": {
-            "price": 0.1,
-            "ts": "2026-03-03T12:06:17.313Z"
+            "price": 0.03,
+            "ts": "2026-03-03T12:22:20.720Z"
           },
           "54°F or higher": {
             "price": 0.1,
@@ -2218,7 +2158,7 @@
         "logged": {
           "Yes": {
             "price": 0.14,
-            "ts": "2026-03-03T12:21:53.191Z"
+            "ts": "2026-03-03T15:36:20.775Z"
           },
           "76-77°F": {
             "price": 0.089,
@@ -2230,350 +2170,6 @@
           }
         },
         "slug": "highest-temperature-in-miami-on-march-5-2026-86forhigher"
-      }
-    },
-    "2026-72-73": {
-      "miami": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.015,
-            "ts": "2026-03-03T12:03:01.170Z"
-          }
-        },
-        "slug": "highest-temperature-in-miami-on-march-5-2026-72-73f"
-      },
-      "atlanta": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.018,
-            "ts": "2026-03-03T12:03:54.226Z"
-          }
-        },
-        "slug": "highest-temperature-in-atlanta-on-march-5-2026-72-73f"
-      }
-    },
-    "2026-46-47": {
-      "seattle": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.13,
-            "ts": "2026-03-03T12:03:11.053Z"
-          }
-        },
-        "slug": "highest-temperature-in-seattle-on-march-5-2026-46-47f"
-      }
-    },
-    "2026-76-77": {
-      "dallas": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.09,
-            "ts": "2026-03-03T12:03:11.173Z"
-          }
-        },
-        "slug": "highest-temperature-in-dallas-on-march-5-2026-76-77f"
-      },
-      "atlanta": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.14,
-            "ts": "2026-03-03T12:03:33.176Z"
-          }
-        },
-        "slug": "highest-temperature-in-atlanta-on-march-5-2026-76-77f"
-      },
-      "miami": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.09,
-            "ts": "2026-03-03T12:08:09.161Z"
-          }
-        },
-        "slug": "highest-temperature-in-miami-on-march-5-2026-76-77f"
-      }
-    },
-    "2026-78-79": {
-      "dallas": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.12,
-            "ts": "2026-03-03T12:03:12.589Z"
-          }
-        },
-        "slug": "highest-temperature-in-dallas-on-march-5-2026-78-79f"
-      },
-      "miami": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.1,
-            "ts": "2026-03-03T13:12:45.685Z"
-          }
-        },
-        "slug": "highest-temperature-in-miami-on-march-5-2026-78-79f"
-      }
-    },
-    "2026-68-69": {
-      "atlanta": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.008,
-            "ts": "2026-03-03T12:03:18.875Z"
-          }
-        },
-        "slug": "highest-temperature-in-atlanta-on-march-5-2026-68-69f"
-      }
-    },
-    "2026-74-75": {
-      "atlanta": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.029,
-            "ts": "2026-03-03T12:03:30.487Z"
-          }
-        },
-        "slug": "highest-temperature-in-atlanta-on-march-5-2026-74-75f"
-      },
-      "miami": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.029,
-            "ts": "2026-03-03T12:04:14.170Z"
-          }
-        },
-        "slug": "highest-temperature-in-miami-on-march-5-2026-74-75f"
-      }
-    },
-    "2026-38-39": {
-      "nyc": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.1,
-            "ts": "2026-03-03T12:04:06.104Z"
-          }
-        },
-        "slug": "highest-temperature-in-nyc-on-march-5-2026-38-39f"
-      },
-      "chicago": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.018,
-            "ts": "2026-03-03T12:04:51.668Z"
-          }
-        },
-        "slug": "highest-temperature-in-chicago-on-march-5-2026-38-39f"
-      }
-    },
-    "2026-50-51": {
-      "chicago": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.079,
-            "ts": "2026-03-03T12:04:06.214Z"
-          }
-        },
-        "slug": "highest-temperature-in-chicago-on-march-5-2026-50-51f"
-      }
-    },
-    "2026-40-41": {
-      "chicago": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.05,
-            "ts": "2026-03-03T12:05:14.159Z"
-          }
-        },
-        "slug": "highest-temperature-in-chicago-on-march-5-2026-40-41f"
-      },
-      "seattle": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.008,
-            "ts": "2026-03-03T12:12:39.953Z"
-          }
-        },
-        "slug": "highest-temperature-in-seattle-on-march-5-2026-40-41f"
-      },
-      "nyc": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.14,
-            "ts": "2026-03-03T16:32:52.365Z"
-          }
-        },
-        "slug": "highest-temperature-in-nyc-on-march-5-2026-40-41f"
-      }
-    },
-    "2026-70-71": {
-      "atlanta": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.008,
-            "ts": "2026-03-03T12:05:23.171Z"
-          }
-        },
-        "slug": "highest-temperature-in-atlanta-on-march-5-2026-70-71f"
-      }
-    },
-    "2026-88-89": {
-      "dallas": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.03,
-            "ts": "2026-03-03T12:06:01.162Z"
-          }
-        },
-        "slug": "highest-temperature-in-dallas-on-march-5-2026-88-89f"
-      }
-    },
-    "2026-86-87": {
-      "dallas": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.07,
-            "ts": "2026-03-03T12:06:16.736Z"
-          }
-        },
-        "slug": "highest-temperature-in-dallas-on-march-5-2026-86-87f"
-      }
-    },
-    "2026-42-43": {
-      "seattle": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.019,
-            "ts": "2026-03-03T12:09:28.963Z"
-          }
-        },
-        "slug": "highest-temperature-in-seattle-on-march-5-2026-42-43f"
-      }
-    },
-    "2026-48-49": {
-      "nyc": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.1,
-            "ts": "2026-03-03T12:09:49.786Z"
-          }
-        },
-        "slug": "highest-temperature-in-nyc-on-march-5-2026-48-49f"
-      },
-      "chicago": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.14,
-            "ts": "2026-03-03T13:21:29.749Z"
-          }
-        },
-        "slug": "highest-temperature-in-chicago-on-march-5-2026-48-49f"
-      }
-    },
-    "2026-84-85": {
-      "dallas": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.11,
-            "ts": "2026-03-03T12:16:24.162Z"
-          }
-        },
-        "slug": "highest-temperature-in-dallas-on-march-5-2026-84-85f"
-      },
-      "miami": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.14,
-            "ts": "2026-03-03T15:36:20.775Z"
-          }
-        },
-        "slug": "highest-temperature-in-miami-on-march-5-2026-84-85f"
-      }
-    },
-    "2026-44-45": {
-      "seattle": {
-        "outcomes": [
-          "Yes"
-        ],
-        "logged": {
-          "Yes": {
-            "price": 0.03,
-            "ts": "2026-03-03T12:22:20.720Z"
-          }
-        },
-        "slug": "highest-temperature-in-seattle-on-march-5-2026-44-45f"
       }
     }
   }
