@@ -133,6 +133,10 @@
           "27°C": {
             "price": 0.002,
             "ts": "2026-03-03T00:25:05.356Z"
+          },
+          "26°C": {
+            "price": 0.002,
+            "ts": "2026-03-03T01:06:41.225Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-2-2026"
@@ -165,6 +169,10 @@
           "35°C": {
             "price": 0.001,
             "ts": "2026-03-03T01:04:17.182Z"
+          },
+          "33°C": {
+            "price": 0.002,
+            "ts": "2026-03-03T01:06:41.285Z"
           }
         },
         "slug": "highest-temperature-in-buenos-aires-on-march-2-2026"
@@ -723,6 +731,10 @@
           "47°F or below": {
             "price": 0.005,
             "ts": "2026-03-03T00:27:39.825Z"
+          },
+          "48-49°F": {
+            "price": 0.001,
+            "ts": "2026-03-03T01:07:31.115Z"
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-3-2026"
@@ -1101,6 +1113,18 @@
           "-3°C or below": {
             "price": 0.004,
             "ts": "2026-03-03T00:17:33.886Z"
+          },
+          "0°C": {
+            "price": 0.009,
+            "ts": "2026-03-03T01:07:19.177Z"
+          },
+          "-2°C": {
+            "price": 0.005,
+            "ts": "2026-03-03T01:07:19.190Z"
+          },
+          "-1°C": {
+            "price": 0.006,
+            "ts": "2026-03-03T01:07:19.202Z"
           }
         },
         "slug": "highest-temperature-in-toronto-on-march-4-2026"
@@ -1341,6 +1365,10 @@
           "4°C": {
             "price": 0.007,
             "ts": "2026-03-03T00:20:36.712Z"
+          },
+          "3°C": {
+            "price": 0.006,
+            "ts": "2026-03-03T01:06:42.229Z"
           }
         },
         "slug": "highest-temperature-in-ankara-on-march-4-2026"
