@@ -1905,6 +1905,18 @@
           }
         },
         "slug": "highest-temperature-in-dallas-on-march-5-2026-78-79f"
+      },
+      "miami": {
+        "outcomes": [
+          "Yes"
+        ],
+        "logged": {
+          "Yes": {
+            "price": 0.1,
+            "ts": "2026-03-03T13:12:45.685Z"
+          }
+        },
+        "slug": "highest-temperature-in-miami-on-march-5-2026-78-79f"
       }
     },
     "2026-68-69": {
