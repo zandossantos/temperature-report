@@ -145,6 +145,10 @@
           "28°C": {
             "price": 0.002,
             "ts": "2026-03-03T01:48:19.226Z"
+          },
+          "29°C or higher": {
+            "price": 0.001,
+            "ts": "2026-03-03T02:10:40.203Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-2-2026"
@@ -321,6 +325,10 @@
           "86-87°F": {
             "price": 0.001,
             "ts": "2026-03-03T01:43:15.191Z"
+          },
+          "84-85°F": {
+            "price": 0.002,
+            "ts": "2026-03-03T02:10:17.210Z"
           }
         },
         "slug": "highest-temperature-in-miami-on-march-2-2026"
