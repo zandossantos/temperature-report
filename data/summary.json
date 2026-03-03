@@ -1170,6 +1170,10 @@
           "7°C": {
             "price": 0.14,
             "ts": "2026-03-03T05:01:55.163Z"
+          },
+          "10°C or higher": {
+            "price": 0.14,
+            "ts": "2026-03-03T06:57:47.498Z"
           }
         },
         "slug": "highest-temperature-in-seoul-on-march-4-2026"
