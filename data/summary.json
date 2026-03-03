@@ -1594,6 +1594,10 @@
           "8°C": {
             "price": 0.14,
             "ts": "2026-03-03T14:59:55.259Z"
+          },
+          "10°C or higher": {
+            "price": 0.14,
+            "ts": "2026-03-03T15:09:26.239Z"
           }
         },
         "slug": "highest-temperature-in-ankara-on-march-4-2026"
