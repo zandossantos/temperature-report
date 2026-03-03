@@ -185,6 +185,10 @@
           "37°C": {
             "price": 0.001,
             "ts": "2026-03-03T01:49:30.192Z"
+          },
+          "38°C or higher": {
+            "price": 0.001,
+            "ts": "2026-03-03T01:51:41.268Z"
           }
         },
         "slug": "highest-temperature-in-buenos-aires-on-march-2-2026"
@@ -459,6 +463,14 @@
           "33°C or higher": {
             "price": 0.005,
             "ts": "2026-03-03T00:27:45.071Z"
+          },
+          "31°C": {
+            "price": 0.007,
+            "ts": "2026-03-03T01:51:39.219Z"
+          },
+          "32°C": {
+            "price": 0.004,
+            "ts": "2026-03-03T01:51:39.231Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-3-2026"
