@@ -85,6 +85,10 @@
           "18°C or higher": {
             "price": 0.001,
             "ts": "2026-03-03T00:03:11.167Z"
+          },
+          "17°C": {
+            "price": 0.001,
+            "ts": "2026-03-03T00:25:18.167Z"
           }
         },
         "slug": "highest-temperature-in-london-on-march-2-2026"
@@ -116,7 +120,12 @@
           "28°C",
           "29°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "27°C": {
+            "price": 0.002,
+            "ts": "2026-03-03T00:25:05.356Z"
+          }
+        },
         "slug": "highest-temperature-in-sao-paulo-on-march-2-2026"
       },
       "buenos": {
@@ -231,6 +240,14 @@
           "38-39°F": {
             "price": 0.001,
             "ts": "2026-03-03T00:11:54.216Z"
+          },
+          "40-41°F": {
+            "price": 0.001,
+            "ts": "2026-03-03T00:24:23.168Z"
+          },
+          "42°F or higher": {
+            "price": 0.001,
+            "ts": "2026-03-03T00:24:46.169Z"
           }
         },
         "slug": "highest-temperature-in-nyc-on-march-2-2026"
@@ -251,6 +268,10 @@
           "82-83°F": {
             "price": 0.002,
             "ts": "2026-03-03T00:05:47.312Z"
+          },
+          "90°F or higher": {
+            "price": 0.001,
+            "ts": "2026-03-03T00:25:15.172Z"
           }
         },
         "slug": "highest-temperature-in-miami-on-march-2-2026"
@@ -271,6 +292,10 @@
           "44-45°F": {
             "price": 0.011,
             "ts": "2026-03-03T00:13:10.535Z"
+          },
+          "46-47°F": {
+            "price": 0.002,
+            "ts": "2026-03-03T00:24:19.161Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-2-2026"
@@ -411,8 +436,8 @@
             "ts": "2026-03-03T00:15:52.163Z"
           },
           "25°C or below": {
-            "price": 0.017,
-            "ts": "2026-03-03T00:00:46.175Z"
+            "price": 0.018,
+            "ts": "2026-03-03T00:25:06.179Z"
           },
           "33°C or higher": {
             "price": 0.013,
