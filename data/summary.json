@@ -29,6 +29,10 @@
           "1.25–1.29ºC": {
             "price": 0.1,
             "ts": "2026-03-03T00:22:07.285Z"
+          },
+          ">1.24ºC": {
+            "price": 0.049,
+            "ts": "2026-03-03T00:59:26.797Z"
           }
         },
         "slug": "march-2026-temperature-increase-c"
@@ -105,7 +109,12 @@
           "18°C",
           "19°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "19°C or higher": {
+            "price": 0.001,
+            "ts": "2026-03-03T00:58:14.165Z"
+          }
+        },
         "slug": "highest-temperature-in-paris-on-march-2-2026"
       },
       "sao": {
