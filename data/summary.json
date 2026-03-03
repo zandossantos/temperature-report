@@ -1050,6 +1050,10 @@
           "14°C": {
             "price": 0.12,
             "ts": "2026-03-03T07:06:12.156Z"
+          },
+          "15°C": {
+            "price": 0.14,
+            "ts": "2026-03-03T14:07:47.170Z"
           }
         },
         "slug": "highest-temperature-in-london-on-march-4-2026"
@@ -1262,6 +1266,10 @@
           "-1°C": {
             "price": 0.006,
             "ts": "2026-03-03T01:07:19.202Z"
+          },
+          "4°C": {
+            "price": 0.14,
+            "ts": "2026-03-03T14:06:46.423Z"
           }
         },
         "slug": "highest-temperature-in-toronto-on-march-4-2026"
