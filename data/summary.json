@@ -672,6 +672,10 @@
           "1°C": {
             "price": 0.14,
             "ts": "2026-03-03T17:03:37.808Z"
+          },
+          "2°C": {
+            "price": 0.01,
+            "ts": "2026-03-03T19:01:05.247Z"
           }
         },
         "slug": "highest-temperature-in-toronto-on-march-3-2026"
