@@ -9,22 +9,56 @@ const cwd = process.cwd();
 const SUMMARY_PATH = path.join(cwd, 'data', 'summary.json');
 const OUTPUT_PATH = path.join(cwd, 'public', 'index.html');
 
-function fallbackSlug(date, city) {
-  if (!date || !city || typeof date !== 'string' || typeof city !== 'string') return '';
-  const m = date.match(/^(\d{4})-(\d{2})-(\d{2})$/);
-  if (!m) return '';
-  const months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
-  const monthName = months[parseInt(m[2], 10) - 1] || '';
+/** Strip trailing outcome-like suffix from slug so event URLs are correct (no -6c, -34-35f). */
+function normalizeEventSlug(slug) {
+  if (!slug || typeof slug !== 'string') return '';
+  const s = slug.trim();
+  if (!s) return '';
+  return s.replace(/-\d+([cf]|-\d+[cf])?$/i, '');
+}
+
+function isValidDateKey(dateKey) {
+  if (!dateKey || typeof dateKey !== 'string') return false;
+  const m = dateKey.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!m) return false;
+  const month = parseInt(m[2], 10);
   const day = parseInt(m[3], 10);
-  const year = m[1];
-  if (!monthName) return '';
-  const citySlug = city.toLowerCase().replace(/\s+/g, '-');
-  return `highest-temperature-in-${citySlug}-on-${monthName}-${day}-${year}`;
+  return month >= 1 && month <= 12 && day >= 1 && day <= 31;
+}
+
+/** Safe: always returns arrays for outcomes/loggedList/missing. Handles new shape { slug, outcomes: { [name]: { currentPrice, outcomeHit15c } } } and skips old array shape. */
+function normalizeCellForReport(cell) {
+  const empty = { outcomes: [], loggedList: [], missing: [], outcomeDetails: {}, slug: '' };
+  if (!cell || typeof cell !== 'object') return empty;
+  const slug = (cell.slug != null && typeof cell.slug === 'string') ? cell.slug.trim() : '';
+  const rawOutcomes = cell.outcomes;
+  if (rawOutcomes == null || typeof rawOutcomes !== 'object') return empty;
+  const outcomeDetails = {};
+  let outcomes;
+  if (Array.isArray(rawOutcomes)) {
+    outcomes = [];
+  } else {
+    try {
+      outcomes = Object.keys(rawOutcomes);
+      if (!Array.isArray(outcomes)) outcomes = [];
+      else outcomes = outcomes.slice().sort();
+    } catch (_) {
+      outcomes = [];
+    }
+  }
+  const loggedList = [];
+  for (const o of outcomes) {
+    const v = rawOutcomes[o];
+    outcomeDetails[o] = v && typeof v === 'object' ? { currentPrice: v.currentPrice, outcomeHit15c: v.outcomeHit15c } : { currentPrice: null, outcomeHit15c: null };
+    if (v && v.outcomeHit15c) loggedList.push([o, v.outcomeHit15c]);
+  }
+  const missing = Array.isArray(outcomes) ? outcomes.filter((o) => !(outcomeDetails[o] && outcomeDetails[o].outcomeHit15c)) : [];
+  return { outcomes: outcomes || [], loggedList, missing, outcomeDetails, slug };
 }
 
 function buildHtml(summary) {
   const byDate = summary.by_date || {};
-  const dates = Object.keys(byDate).sort();
+  const dates = Object.keys(byDate).filter(isValidDateKey).sort();
   let totalOutcomes = 0;
   let totalLogged = 0;
   const byDateKey = {};
@@ -34,21 +68,25 @@ function buildHtml(summary) {
     byDateKey[date] = [];
     for (const city of cityNames) {
       const cell = cities[city];
-      const outcomes = cell.outcomes || [];
-      const logged = cell.logged || {};
-      const loggedList = Object.entries(logged);
-      const missing = outcomes.filter((o) => !logged[o]);
+      const norm = normalizeCellForReport(cell);
+      const outcomes = Array.isArray(norm.outcomes) ? norm.outcomes : [];
+      const loggedList = Array.isArray(norm.loggedList) ? norm.loggedList : [];
+      const missing = Array.isArray(norm.missing) ? norm.missing : [];
+      const outcomeDetails = norm.outcomeDetails && typeof norm.outcomeDetails === 'object' ? norm.outcomeDetails : {};
+      const cellSlug = norm.slug;
+      if (outcomes.length === 0) continue;
       totalOutcomes += outcomes.length;
       totalLogged += loggedList.length;
-      const pct = outcomes.length ? Math.round((loggedList.length / outcomes.length) * 100) : 0;
-      const slug = cell.slug || fallbackSlug(date, city);
+      const pct = Math.round((loggedList.length / outcomes.length) * 100);
+      const slug = cellSlug ? (normalizeEventSlug(cellSlug) || cellSlug) : '';
       byDateKey[date].push({
         date,
         city,
-        slug: slug || '',
+        slug,
         outcomes,
         logged: loggedList,
         missing,
+        outcomeDetails,
         total: outcomes.length,
         loggedCount: loggedList.length,
         pct,
@@ -112,7 +150,7 @@ function buildHtml(summary) {
       if (!ts) return '';
       var d = new Date(ts);
       if (isNaN(d.getTime())) return ts;
-      return d.toLocaleString(undefined, { dateStyle: 'short', timeStyle: 'short' });
+      return d.toLocaleString(undefined, { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true });
     }
     function formatDateHeader(dateKey) {
       if (!dateKey || typeof dateKey !== 'string') return dateKey || 'Unknown date';
@@ -142,12 +180,14 @@ function buildHtml(summary) {
       for (const r of rows) {
         const tr = document.createElement('tr');
         const pctClass = r.pct >= 100 ? '' : r.pct >= 50 ? 'mid' : 'low';
-        const loggedList = r.logged.map(([o, v]) => '<span class="ok">' + escapeHtml(o) + '</span> <span class="ts">' + (v.price != null ? (v.price * 100).toFixed(1) + '¢' : '') + '</span>').join(', ');
+        const loggedList = r.logged.map(([o, v]) => '<span class="ok">' + escapeHtml(o) + '</span> <span class="ts">' + (v && v.price != null ? (v.price * 100).toFixed(1) + '¢' : '') + '</span>').join(', ');
         const missingList = r.missing.map(o => '<span class="miss">' + escapeHtml(o) + '</span>').join(', ');
-        const detailsHtml = r.outcomes.map(o => {
-          const v = r.logged.find(x => x[0] === o)?.[1];
-          if (v) return '<span class="ok">' + escapeHtml(o) + '</span> ' + (v.price != null ? (v.price * 100).toFixed(1) + '¢' : '') + (v.ts ? ' <span class="ts">' + escapeHtml(formatTs(v.ts)) + '</span>' : '');
-          return '<span class="miss">' + escapeHtml(o) + '</span>';
+        const detailsHtml = (r.outcomes || []).map(o => {
+          const det = r.outcomeDetails && r.outcomeDetails[o];
+          const currentStr = det && det.currentPrice != null ? (det.currentPrice * 100).toFixed(1) + '¢' : '—';
+          const hitStr = det && det.outcomeHit15c ? (det.outcomeHit15c.price != null ? (det.outcomeHit15c.price * 100).toFixed(1) + '¢' : '') + (det.outcomeHit15c.ts ? ' <span class="ts">' + escapeHtml(formatTs(det.outcomeHit15c.ts)) + '</span>' : '') : '—';
+          const cls = det && det.outcomeHit15c ? 'ok' : 'miss';
+          return '<span class="' + cls + '">' + escapeHtml(o) + '</span> current: ' + currentStr + ' · hit 15¢: ' + hitStr;
         }).join('<br>');
         const eventCell = r.slug
           ? '<a href="' + escapeHtml(EVENT_BASE + r.slug) + '" target="_blank" rel="noopener">View on Polymarket</a>'
