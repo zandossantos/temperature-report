@@ -1188,6 +1188,10 @@
           "40°C": {
             "price": 0.003,
             "ts": "2026-03-03T22:19:43.212Z"
+          },
+          "34°C": {
+            "price": 0.14,
+            "ts": "2026-03-04T00:20:57.211Z"
           }
         },
         "slug": "highest-temperature-in-buenos-aires-on-march-4-2026"
@@ -1991,6 +1995,10 @@
           "38-39°F": {
             "price": 0.149,
             "ts": "2026-03-03T22:38:03.883Z"
+          },
+          "46-47°F": {
+            "price": 0.14,
+            "ts": "2026-03-04T00:21:17.858Z"
           }
         },
         "slug": "highest-temperature-in-nyc-on-march-5-2026-50forhigher"
