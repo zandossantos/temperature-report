@@ -100,6 +100,10 @@
           "6°C or higher": {
             "price": 0.001,
             "ts": "2026-03-04T05:19:58.047Z"
+          },
+          "4°C": {
+            "price": 0.001,
+            "ts": "2026-03-04T06:18:42.065Z"
           }
         },
         "slug": "highest-temperature-in-toronto-on-march-3-2026"
@@ -120,6 +124,10 @@
           "54-55°F": {
             "price": 0.005,
             "ts": "2026-03-04T04:53:31.301Z"
+          },
+          "56°F or higher": {
+            "price": 0.001,
+            "ts": "2026-03-04T06:18:45.066Z"
           }
         },
         "slug": "highest-temperature-in-seattle-on-march-3-2026"
