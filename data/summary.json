@@ -696,6 +696,10 @@
           "48-49°F": {
             "price": 0.12,
             "ts": "2026-03-04T04:34:08.049Z"
+          },
+          "50°F or higher": {
+            "price": 0.14,
+            "ts": "2026-03-04T05:37:03.975Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-4-2026"
