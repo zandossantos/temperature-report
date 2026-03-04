@@ -1396,6 +1396,30 @@
         ],
         "logged": {},
         "slug": "highest-temperature-in-sao-paulo-on-march-6-2026-26corbelow"
+      },
+      "munich": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-munich-on-march-6-2026-9corbelow"
+      },
+      "seattle": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-seattle-on-march-6-2026-39forbelow"
+      },
+      "atlanta": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-atlanta-on-march-6-2026-65forbelow"
       }
     }
   }
