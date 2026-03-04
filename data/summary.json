@@ -13,7 +13,12 @@
           "40-41°F",
           "42°F or higher"
         ],
-        "logged": {},
+        "logged": {
+          "28-29°F": {
+            "price": 0.001,
+            "ts": "2026-03-04T01:42:30.233Z"
+          }
+        },
         "slug": "highest-temperature-in-chicago-on-february-26-2026"
       }
     },
