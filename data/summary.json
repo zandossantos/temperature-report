@@ -1442,7 +1442,12 @@
           "No",
           "Yes"
         ],
-        "logged": {},
+        "logged": {
+          "Yes": {
+            "price": 0.025,
+            "ts": "2026-03-04T13:56:49.089Z"
+          }
+        },
         "slug": "highest-temperature-in-paris-on-march-6-2026-13corbelow"
       },
       "toronto": {
@@ -1474,7 +1479,12 @@
           "No",
           "Yes"
         ],
-        "logged": {},
+        "logged": {
+          "Yes": {
+            "price": 0.12,
+            "ts": "2026-03-04T13:57:38.973Z"
+          }
+        },
         "slug": "highest-temperature-in-nyc-on-march-6-2026-33forbelow"
       },
       "miami": {
@@ -1482,7 +1492,12 @@
           "No",
           "Yes"
         ],
-        "logged": {},
+        "logged": {
+          "Yes": {
+            "price": 0.08,
+            "ts": "2026-03-04T13:57:14.039Z"
+          }
+        },
         "slug": "highest-temperature-in-miami-on-march-6-2026-73forbelow"
       },
       "seoul": {
@@ -1490,7 +1505,12 @@
           "No",
           "Yes"
         ],
-        "logged": {},
+        "logged": {
+          "Yes": {
+            "price": 0.08,
+            "ts": "2026-03-04T13:57:57.792Z"
+          }
+        },
         "slug": "highest-temperature-in-seoul-on-march-6-2026-neg-1corbelow"
       },
       "dallas": {
