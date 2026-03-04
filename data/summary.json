@@ -588,6 +588,10 @@
           "40-41°F": {
             "price": 0.029,
             "ts": "2026-03-04T04:22:42.312Z"
+          },
+          "48-49°F": {
+            "price": 0.12,
+            "ts": "2026-03-04T04:34:08.049Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-4-2026"
@@ -718,6 +722,10 @@
           "15°C": {
             "price": 0.004,
             "ts": "2026-03-04T04:21:52.033Z"
+          },
+          "17°C": {
+            "price": 0.08,
+            "ts": "2026-03-04T04:34:54.036Z"
           }
         },
         "slug": "highest-temperature-in-paris-on-march-5-2026"
@@ -842,7 +850,12 @@
           "4°C",
           "5°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "1°C": {
+            "price": 0.08,
+            "ts": "2026-03-04T04:34:56.059Z"
+          }
+        },
         "slug": "highest-temperature-in-toronto-on-march-5-2026"
       },
       "seattle": {
@@ -1140,6 +1153,14 @@
           "11°C": {
             "price": 0.14,
             "ts": "2026-03-04T04:22:54.965Z"
+          },
+          "17°C or higher": {
+            "price": 0.06,
+            "ts": "2026-03-04T04:35:02.045Z"
+          },
+          "10°C": {
+            "price": 0.02,
+            "ts": "2026-03-04T04:35:02.049Z"
           }
         },
         "slug": "highest-temperature-in-munich-on-march-5-2026"
