@@ -47,7 +47,12 @@
           "32°C",
           "33°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "27°C": {
+            "price": 0.001,
+            "ts": "2026-03-04T04:51:30.061Z"
+          }
+        },
         "slug": "highest-temperature-in-sao-paulo-on-march-3-2026"
       },
       "buenos": {
