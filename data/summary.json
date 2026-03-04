@@ -1436,6 +1436,22 @@
         ],
         "logged": {},
         "slug": "highest-temperature-in-toronto-on-march-6-2026-neg-3corbelow"
+      },
+      "ankara": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-ankara-on-march-6-2026-4corbelow"
+      },
+      "chicago": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-chicago-on-march-6-2026-57forbelow"
       }
     }
   }
