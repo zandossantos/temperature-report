@@ -87,7 +87,12 @@
           "5°C",
           "6°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "5°C": {
+            "price": 0.001,
+            "ts": "2026-03-04T05:07:15.145Z"
+          }
+        },
         "slug": "highest-temperature-in-toronto-on-march-3-2026"
       },
       "seattle": {
