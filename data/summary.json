@@ -152,7 +152,7 @@
             "outcomeHit15c": null
           },
           "18°C": {
-            "currentPrice": 1,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "19°C": {
@@ -177,7 +177,7 @@
             "outcomeHit15c": null
           },
           "26°C": {
-            "currentPrice": 0.999,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "27°C": {
@@ -185,22 +185,16 @@
             "outcomeHit15c": null
           },
           "28°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.003,
-              "ts": "2026-03-04T22:53:55.060Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "29°C": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "30°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.01,
-              "ts": "2026-03-04T22:52:13.071Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "31°C": {
             "currentPrice": null,
@@ -224,7 +218,7 @@
             "outcomeHit15c": null
           },
           "34°C": {
-            "currentPrice": 1,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "35°C": {
@@ -232,11 +226,8 @@
             "outcomeHit15c": null
           },
           "36°C": {
-            "currentPrice": 0.003,
-            "outcomeHit15c": {
-              "price": 0.003,
-              "ts": "2026-03-04T22:59:27.709Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "37°C": {
             "currentPrice": null,
@@ -284,18 +275,15 @@
             "outcomeHit15c": null
           },
           "52-53°F": {
-            "currentPrice": 0.048,
+            "currentPrice": 0.999,
             "outcomeHit15c": {
-              "price": 0.05,
-              "ts": "2026-03-04T22:52:23.067Z"
+              "price": 0.04,
+              "ts": "2026-03-04T23:00:54.044Z"
             }
           },
           "54-55°F": {
-            "currentPrice": 0.005,
-            "outcomeHit15c": {
-              "price": 0.01,
-              "ts": "2026-03-04T22:51:55.891Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "56-57°F": {
             "currentPrice": null,
@@ -343,7 +331,7 @@
             "outcomeHit15c": null
           },
           "72°F or higher": {
-            "currentPrice": 1,
+            "currentPrice": null,
             "outcomeHit15c": null
           }
         }
@@ -364,29 +352,20 @@
             "outcomeHit15c": null
           },
           "80-81°F": {
-            "currentPrice": 0.999,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "82-83°F": {
-            "currentPrice": 0.008,
-            "outcomeHit15c": {
-              "price": 0.008,
-              "ts": "2026-03-04T22:57:37.617Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "84-85°F": {
-            "currentPrice": 0.007,
-            "outcomeHit15c": {
-              "price": 0.007,
-              "ts": "2026-03-04T22:53:35.064Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "86-87°F": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.007,
-              "ts": "2026-03-04T22:54:07.109Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "88-89°F": {
             "currentPrice": null,
@@ -422,29 +401,20 @@
             "outcomeHit15c": null
           },
           "44-45°F": {
-            "currentPrice": 0.997,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "46-47°F": {
-            "currentPrice": 0.006,
-            "outcomeHit15c": {
-              "price": 0.006,
-              "ts": "2026-03-04T22:59:01.433Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "48-49°F": {
-            "currentPrice": 0.007,
-            "outcomeHit15c": {
-              "price": 0.006,
-              "ts": "2026-03-04T22:54:44.896Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "50°F or higher": {
-            "currentPrice": 0.01,
-            "outcomeHit15c": {
-              "price": 0.01,
-              "ts": "2026-03-04T22:59:49.509Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       }
@@ -454,43 +424,31 @@
         "slug": "highest-temperature-in-london-on-march-5-2026",
         "outcomes": {
           "12°C or below": {
-            "currentPrice": 0.02,
-            "outcomeHit15c": {
-              "price": 0.021,
-              "ts": "2026-03-04T22:51:48.749Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "13°C": {
-            "currentPrice": 0.018,
-            "outcomeHit15c": {
-              "price": 0.018,
-              "ts": "2026-03-04T22:55:26.410Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "14°C": {
-            "currentPrice": 0.033,
-            "outcomeHit15c": {
-              "price": 0.033,
-              "ts": "2026-03-04T22:54:35.744Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "15°C": {
-            "currentPrice": 0.084,
-            "outcomeHit15c": {
-              "price": 0.085,
-              "ts": "2026-03-04T22:51:46.185Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "16°C": {
-            "currentPrice": 0.22,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "17°C": {
-            "currentPrice": 0.37,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "18°C": {
-            "currentPrice": 0.26,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "19°C": {
@@ -498,11 +456,8 @@
             "outcomeHit15c": null
           },
           "20°C or higher": {
-            "currentPrice": 0.029,
-            "outcomeHit15c": {
-              "price": 0.031,
-              "ts": "2026-03-04T22:51:51.335Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       },
@@ -510,39 +465,27 @@
         "slug": "highest-temperature-in-paris-on-march-5-2026",
         "outcomes": {
           "13°C or below": {
-            "currentPrice": 0.007,
-            "outcomeHit15c": {
-              "price": 0.005,
-              "ts": "2026-03-04T22:52:15.285Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "14°C": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "15°C": {
-            "currentPrice": 0.004,
-            "outcomeHit15c": {
-              "price": 0.006,
-              "ts": "2026-03-04T22:58:40.437Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "16°C": {
-            "currentPrice": 0.035,
-            "outcomeHit15c": {
-              "price": 0.035,
-              "ts": "2026-03-04T22:56:16.060Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "17°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.09,
-              "ts": "2026-03-04T22:53:04.065Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "18°C": {
-            "currentPrice": 0.43,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "19°C": {
@@ -554,11 +497,8 @@
             "outcomeHit15c": null
           },
           "21°C or higher": {
-            "currentPrice": 0.05,
-            "outcomeHit15c": {
-              "price": 0.06,
-              "ts": "2026-03-04T22:51:55.078Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       },
@@ -566,17 +506,14 @@
         "slug": "highest-temperature-in-sao-paulo-on-march-5-2026",
         "outcomes": {
           "25°C or below": {
-            "currentPrice": 0.017,
-            "outcomeHit15c": {
-              "price": 0.011,
-              "ts": "2026-03-04T22:52:11.880Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "26°C": {
             "currentPrice": 0.032,
             "outcomeHit15c": {
-              "price": 0.033,
-              "ts": "2026-03-04T22:51:46.132Z"
+              "price": 0.031,
+              "ts": "2026-03-04T23:00:52.897Z"
             }
           },
           "27°C": {
@@ -584,11 +521,11 @@
             "outcomeHit15c": null
           },
           "28°C": {
-            "currentPrice": 0.29,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "29°C": {
-            "currentPrice": 0.36,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "30°C": {
@@ -625,36 +562,27 @@
             "outcomeHit15c": null
           },
           "23°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.014,
-              "ts": "2026-03-04T22:51:56.070Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "24°C": {
-            "currentPrice": 0.035,
-            "outcomeHit15c": {
-              "price": 0.035,
-              "ts": "2026-03-04T22:52:41.086Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "25°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.039,
-              "ts": "2026-03-04T22:52:22.078Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "26°C": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "27°C": {
-            "currentPrice": 0.34,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "28°C or higher": {
-            "currentPrice": 0.5,
+            "currentPrice": null,
             "outcomeHit15c": null
           }
         }
@@ -667,50 +595,38 @@
             "outcomeHit15c": null
           },
           "4°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.005,
-              "ts": "2026-03-04T22:55:57.098Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "5°C": {
-            "currentPrice": 0.064,
+            "currentPrice": 0.07,
             "outcomeHit15c": {
-              "price": 0.026,
-              "ts": "2026-03-04T22:51:58.071Z"
+              "price": 0.07,
+              "ts": "2026-03-04T23:00:55.062Z"
             }
           },
           "6°C": {
-            "currentPrice": 0.048,
-            "outcomeHit15c": {
-              "price": 0.068,
-              "ts": "2026-03-04T22:52:41.060Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "7°C": {
-            "currentPrice": 0.105,
-            "outcomeHit15c": {
-              "price": 0.107,
-              "ts": "2026-03-04T22:52:00.406Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "8°C": {
-            "currentPrice": 0.09,
-            "outcomeHit15c": {
-              "price": 0.11,
-              "ts": "2026-03-04T22:52:13.363Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "9°C": {
-            "currentPrice": 0.34,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "10°C": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "11°C or higher": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           }
         }
@@ -723,40 +639,31 @@
             "outcomeHit15c": null
           },
           "-2°C": {
-            "currentPrice": 0.01,
-            "outcomeHit15c": {
-              "price": 0.01,
-              "ts": "2026-03-04T22:58:07.100Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "-1°C": {
-            "currentPrice": 0.015,
-            "outcomeHit15c": {
-              "price": 0.015,
-              "ts": "2026-03-04T22:55:30.918Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "0°C": {
-            "currentPrice": 0.016,
-            "outcomeHit15c": {
-              "price": 0.014,
-              "ts": "2026-03-04T22:58:00.329Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "1°C": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "2°C": {
-            "currentPrice": 0.25,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "3°C": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "4°C": {
-            "currentPrice": 0.19,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "5°C or higher": {
@@ -769,11 +676,8 @@
         "slug": "highest-temperature-in-seattle-on-march-5-2026",
         "outcomes": {
           "39°F or below": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.005,
-              "ts": "2026-03-04T22:52:59.060Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "40-41°F": {
             "currentPrice": null,
@@ -788,30 +692,24 @@
             "outcomeHit15c": null
           },
           "46-47°F": {
-            "currentPrice": 0.06,
-            "outcomeHit15c": {
-              "price": 0.06,
-              "ts": "2026-03-04T22:52:27.613Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "48-49°F": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "50-51°F": {
-            "currentPrice": 0.39,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "52-53°F": {
-            "currentPrice": 0.24,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "54°F or higher": {
-            "currentPrice": 0.024,
-            "outcomeHit15c": {
-              "price": 0.025,
-              "ts": "2026-03-04T22:57:27.549Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       },
@@ -831,37 +729,28 @@
             "outcomeHit15c": null
           },
           "40-41°F": {
-            "currentPrice": 0.33,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "42-43°F": {
-            "currentPrice": 0.44,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "44-45°F": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "46-47°F": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.03,
-              "ts": "2026-03-04T22:58:00.067Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "48-49°F": {
-            "currentPrice": 0.02,
-            "outcomeHit15c": {
-              "price": 0.021,
-              "ts": "2026-03-04T22:58:40.068Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "50°F or higher": {
-            "currentPrice": 0.008,
-            "outcomeHit15c": {
-              "price": 0.008,
-              "ts": "2026-03-04T22:52:30.538Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       },
@@ -869,44 +758,32 @@
         "slug": "highest-temperature-in-dallas-on-march-5-2026",
         "outcomes": {
           "75°F or below": {
-            "currentPrice": 0.034,
-            "outcomeHit15c": {
-              "price": 0.034,
-              "ts": "2026-03-04T22:52:30.771Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "76-77°F": {
-            "currentPrice": 0.08,
-            "outcomeHit15c": {
-              "price": 0.08,
-              "ts": "2026-03-04T22:54:23.831Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "78-79°F": {
-            "currentPrice": 0.3,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "80-81°F": {
-            "currentPrice": 0.36,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "82-83°F": {
-            "currentPrice": 0.18,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "84-85°F": {
-            "currentPrice": 0.05,
-            "outcomeHit15c": {
-              "price": 0.06,
-              "ts": "2026-03-04T22:57:23.071Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "86-87°F": {
-            "currentPrice": 0.012,
-            "outcomeHit15c": {
-              "price": 0.012,
-              "ts": "2026-03-04T22:54:27.846Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "88-89°F": {
             "currentPrice": null,
@@ -938,22 +815,19 @@
             "outcomeHit15c": null
           },
           "74-75°F": {
-            "currentPrice": 0.028,
-            "outcomeHit15c": {
-              "price": 0.028,
-              "ts": "2026-03-04T22:52:21.517Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "76-77°F": {
-            "currentPrice": 0.15,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "78-79°F": {
-            "currentPrice": 0.22,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "80-81°F": {
-            "currentPrice": 0.38,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "82°F or higher": {
@@ -974,41 +848,32 @@
             "outcomeHit15c": null
           },
           "74-75°F": {
-            "currentPrice": 0.01,
-            "outcomeHit15c": {
-              "price": 0.01,
-              "ts": "2026-03-04T22:59:56.062Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "76-77°F": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "78-79°F": {
-            "currentPrice": 0.14,
-            "outcomeHit15c": {
-              "price": 0.14,
-              "ts": "2026-03-04T22:52:31.062Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "80-81°F": {
             "currentPrice": 0.23,
             "outcomeHit15c": null
           },
           "82-83°F": {
-            "currentPrice": 0.43,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "84-85°F": {
-            "currentPrice": 0.17,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "86°F or higher": {
-            "currentPrice": 0.07,
-            "outcomeHit15c": {
-              "price": 0.07,
-              "ts": "2026-03-04T22:52:07.130Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       },
@@ -1024,22 +889,19 @@
             "outcomeHit15c": null
           },
           "40-41°F": {
-            "currentPrice": 0.99,
-            "outcomeHit15c": {
-              "price": 0.1,
-              "ts": "2026-03-04T22:51:46.091Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "42-43°F": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "44-45°F": {
-            "currentPrice": 0.29,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "46-47°F": {
-            "currentPrice": 0.18,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "48-49°F": {
@@ -1047,11 +909,8 @@
             "outcomeHit15c": null
           },
           "50-51°F": {
-            "currentPrice": 0.014,
-            "outcomeHit15c": {
-              "price": 0.015,
-              "ts": "2026-03-04T22:52:11.070Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "52°F or higher": {
             "currentPrice": null,
@@ -1067,51 +926,36 @@
             "outcomeHit15c": null
           },
           "6°C": {
-            "currentPrice": 0.01,
-            "outcomeHit15c": {
-              "price": 0.007,
-              "ts": "2026-03-04T22:59:38.400Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "7°C": {
-            "currentPrice": 0.012,
-            "outcomeHit15c": {
-              "price": 0.012,
-              "ts": "2026-03-04T22:55:38.189Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "8°C": {
-            "currentPrice": 0.02,
-            "outcomeHit15c": {
-              "price": 0.016,
-              "ts": "2026-03-04T22:55:30.580Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "9°C": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "10°C": {
-            "currentPrice": 0.99,
-            "outcomeHit15c": {
-              "price": 0.12,
-              "ts": "2026-03-04T22:51:59.812Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "11°C": {
-            "currentPrice": 0.28,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "12°C": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "13°C or higher": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.133,
-              "ts": "2026-03-04T22:51:42.176Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       },
@@ -1127,46 +971,34 @@
             "outcomeHit15c": null
           },
           "16°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.001,
-              "ts": "2026-03-04T22:54:31.067Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "17°C": {
-            "currentPrice": 0.069,
-            "outcomeHit15c": {
-              "price": 0.098,
-              "ts": "2026-03-04T22:51:41.694Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "18°C": {
-            "currentPrice": 0.33,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "19°C": {
-            "currentPrice": 0.51,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "20°C": {
-            "currentPrice": 0.2,
-            "outcomeHit15c": {
-              "price": 0.14,
-              "ts": "2026-03-04T22:51:56.042Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "21°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.015,
-              "ts": "2026-03-04T22:53:29.084Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "22°C or higher": {
-            "currentPrice": 0.008,
+            "currentPrice": 0.014,
             "outcomeHit15c": {
-              "price": 0.008,
-              "ts": "2026-03-04T22:56:36.023Z"
+              "price": 0.014,
+              "ts": "2026-03-04T23:00:53.319Z"
             }
           }
         }
@@ -1175,35 +1007,26 @@
         "slug": "highest-temperature-in-lucknow-on-march-5-2026",
         "outcomes": {
           "34°C or below": {
-            "currentPrice": 0.949,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "35°C": {
-            "currentPrice": 0.11,
-            "outcomeHit15c": {
-              "price": 0.1,
-              "ts": "2026-03-04T22:51:42.213Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "36°C": {
-            "currentPrice": 0.018,
-            "outcomeHit15c": {
-              "price": 0.018,
-              "ts": "2026-03-04T22:53:44.745Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "37°C": {
-            "currentPrice": 0.03,
-            "outcomeHit15c": {
-              "price": 0.049,
-              "ts": "2026-03-04T22:52:28.686Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "38°C": {
             "currentPrice": 0.024,
             "outcomeHit15c": {
-              "price": 0.023,
-              "ts": "2026-03-04T22:51:41.706Z"
+              "price": 0.024,
+              "ts": "2026-03-04T23:00:53.074Z"
             }
           },
           "39°C": {
@@ -1211,11 +1034,8 @@
             "outcomeHit15c": null
           },
           "40°C": {
-            "currentPrice": 0.003,
-            "outcomeHit15c": {
-              "price": 0.003,
-              "ts": "2026-03-04T22:53:20.531Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "41°C": {
             "currentPrice": null,
@@ -1235,25 +1055,19 @@
             "outcomeHit15c": null
           },
           "10°C": {
-            "currentPrice": 0.049,
-            "outcomeHit15c": {
-              "price": 0.031,
-              "ts": "2026-03-04T22:52:53.059Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "11°C": {
-            "currentPrice": 0.05,
-            "outcomeHit15c": {
-              "price": 0.083,
-              "ts": "2026-03-04T22:52:37.321Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "12°C": {
-            "currentPrice": 0.18,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "13°C": {
-            "currentPrice": 0.28,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "14°C": {
@@ -1265,11 +1079,8 @@
             "outcomeHit15c": null
           },
           "16°C": {
-            "currentPrice": 0.13,
-            "outcomeHit15c": {
-              "price": 0.13,
-              "ts": "2026-03-04T22:55:15.132Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "17°C or higher": {
             "currentPrice": null,
@@ -1283,44 +1094,32 @@
         "slug": "highest-temperature-in-london-on-march-6-2026",
         "outcomes": {
           "13°C or below": {
-            "currentPrice": 0.47,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "14°C": {
-            "currentPrice": 0.29,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "15°C": {
-            "currentPrice": 0.17,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "16°C": {
-            "currentPrice": 0.13,
-            "outcomeHit15c": {
-              "price": 0.13,
-              "ts": "2026-03-04T22:53:00.541Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "17°C": {
-            "currentPrice": 0.081,
-            "outcomeHit15c": {
-              "price": 0.085,
-              "ts": "2026-03-04T22:51:55.028Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "18°C": {
-            "currentPrice": 0.029,
-            "outcomeHit15c": {
-              "price": 0.032,
-              "ts": "2026-03-04T22:52:35.245Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "19°C": {
-            "currentPrice": 0.017,
-            "outcomeHit15c": {
-              "price": 0.017,
-              "ts": "2026-03-04T22:53:00.978Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "20°C": {
             "currentPrice": null,
@@ -1336,11 +1135,8 @@
         "slug": "highest-temperature-in-paris-on-march-6-2026",
         "outcomes": {
           "13°C or below": {
-            "currentPrice": 0.008,
-            "outcomeHit15c": {
-              "price": 0.008,
-              "ts": "2026-03-04T22:57:06.538Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "14°C": {
             "currentPrice": null,
@@ -1351,33 +1147,27 @@
             "outcomeHit15c": null
           },
           "16°C": {
-            "currentPrice": 0.057,
-            "outcomeHit15c": {
-              "price": 0.057,
-              "ts": "2026-03-04T22:56:59.451Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "17°C": {
-            "currentPrice": 0.15,
-            "outcomeHit15c": {
-              "price": 0.12,
-              "ts": "2026-03-04T22:51:55.062Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "18°C": {
-            "currentPrice": 0.23,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "19°C": {
-            "currentPrice": 0.35,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "20°C": {
-            "currentPrice": 0.27,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "21°C or higher": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           }
         }
@@ -1390,18 +1180,15 @@
             "outcomeHit15c": null
           },
           "27°C": {
-            "currentPrice": 0.13,
-            "outcomeHit15c": {
-              "price": 0.14,
-              "ts": "2026-03-04T22:52:02.985Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "28°C": {
-            "currentPrice": 0.33,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "29°C": {
-            "currentPrice": 0.35,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "30°C": {
@@ -1421,11 +1208,8 @@
             "outcomeHit15c": null
           },
           "34°C or higher": {
-            "currentPrice": 0.015,
-            "outcomeHit15c": {
-              "price": 0.015,
-              "ts": "2026-03-04T22:52:24.704Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       },
@@ -1433,11 +1217,8 @@
         "slug": "highest-temperature-in-buenos-aires-on-march-6-2026",
         "outcomes": {
           "17°C or below": {
-            "currentPrice": 0.006,
-            "outcomeHit15c": {
-              "price": 0.006,
-              "ts": "2026-03-04T22:51:43.943Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "18°C": {
             "currentPrice": null,
@@ -1456,22 +1237,19 @@
             "outcomeHit15c": null
           },
           "22°C": {
-            "currentPrice": 0.048,
-            "outcomeHit15c": {
-              "price": 0.049,
-              "ts": "2026-03-04T22:52:16.194Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "23°C": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "24°C": {
-            "currentPrice": 0.15,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "25°C or higher": {
-            "currentPrice": 0.77,
+            "currentPrice": null,
             "outcomeHit15c": null
           }
         }
@@ -1492,30 +1270,27 @@
             "outcomeHit15c": null
           },
           "2°C": {
-            "currentPrice": 0.05,
-            "outcomeHit15c": {
-              "price": 0.05,
-              "ts": "2026-03-04T22:56:22.609Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "3°C": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "4°C": {
-            "currentPrice": 0.21,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "5°C": {
-            "currentPrice": 0.39,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "6°C": {
-            "currentPrice": 0.21,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "7°C or higher": {
-            "currentPrice": 0.16,
+            "currentPrice": null,
             "outcomeHit15c": null
           }
         }
@@ -1524,54 +1299,39 @@
         "slug": "highest-temperature-in-toronto-on-march-6-2026",
         "outcomes": {
           "-3°C or below": {
-            "currentPrice": 0.018,
-            "outcomeHit15c": {
-              "price": 0.018,
-              "ts": "2026-03-04T22:52:47.691Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "-2°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.019,
-              "ts": "2026-03-04T22:54:02.081Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "-1°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.039,
-              "ts": "2026-03-04T22:54:02.068Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "0°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.034,
-              "ts": "2026-03-04T22:54:02.086Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "1°C": {
-            "currentPrice": 0.99,
-            "outcomeHit15c": {
-              "price": 0.13,
-              "ts": "2026-03-04T22:53:50.719Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "2°C": {
-            "currentPrice": 0.26,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "3°C": {
-            "currentPrice": 0.25,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "4°C": {
-            "currentPrice": 0.24,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "5°C or higher": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           }
         }
@@ -1588,11 +1348,8 @@
             "outcomeHit15c": null
           },
           "42-43°F": {
-            "currentPrice": 0.007,
-            "outcomeHit15c": {
-              "price": 0.006,
-              "ts": "2026-03-04T22:56:10.059Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "44-45°F": {
             "currentPrice": null,
@@ -1603,22 +1360,19 @@
             "outcomeHit15c": null
           },
           "48-49°F": {
-            "currentPrice": 0.14,
-            "outcomeHit15c": {
-              "price": 0.14,
-              "ts": "2026-03-04T22:52:42.008Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "50-51°F": {
-            "currentPrice": 0.35,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "52-53°F": {
-            "currentPrice": 0.32,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "54°F or higher": {
-            "currentPrice": 0.22,
+            "currentPrice": null,
             "outcomeHit15c": null
           }
         }
@@ -1639,37 +1393,28 @@
             "outcomeHit15c": null
           },
           "38-39°F": {
-            "currentPrice": 0.26,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "40-41°F": {
-            "currentPrice": 0.3,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "42-43°F": {
-            "currentPrice": 0.19,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "44-45°F": {
-            "currentPrice": 0.11,
-            "outcomeHit15c": {
-              "price": 0.11,
-              "ts": "2026-03-04T22:53:14.552Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "46-47°F": {
-            "currentPrice": 0.05,
-            "outcomeHit15c": {
-              "price": 0.05,
-              "ts": "2026-03-04T22:53:15.202Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "48°F or higher": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.027,
-              "ts": "2026-03-04T22:52:55.058Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       },
@@ -1677,14 +1422,11 @@
         "slug": "highest-temperature-in-dallas-on-march-6-2026",
         "outcomes": {
           "75°F or below": {
-            "currentPrice": 0.147,
-            "outcomeHit15c": {
-              "price": 0.148,
-              "ts": "2026-03-04T22:52:29.060Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "76-77°F": {
-            "currentPrice": 0.18,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "78-79°F": {
@@ -1692,11 +1434,11 @@
             "outcomeHit15c": null
           },
           "80-81°F": {
-            "currentPrice": 0.26,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "82-83°F": {
-            "currentPrice": 0.21,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "84-85°F": {
@@ -1704,11 +1446,8 @@
             "outcomeHit15c": null
           },
           "86-87°F": {
-            "currentPrice": 0.026,
-            "outcomeHit15c": {
-              "price": 0.029,
-              "ts": "2026-03-04T22:52:01.335Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "88-89°F": {
             "currentPrice": null,
@@ -1744,18 +1483,15 @@
             "outcomeHit15c": null
           },
           "74-75°F": {
-            "currentPrice": 0.04,
-            "outcomeHit15c": {
-              "price": 0.04,
-              "ts": "2026-03-04T22:51:43.061Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "76-77°F": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "78-79°F": {
-            "currentPrice": 0.35,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "80°F or higher": {
@@ -1776,41 +1512,32 @@
             "outcomeHit15c": null
           },
           "76-77°F": {
-            "currentPrice": 0.06,
-            "outcomeHit15c": {
-              "price": 0.06,
-              "ts": "2026-03-04T22:56:39.512Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "78-79°F": {
-            "currentPrice": 0.18,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "80-81°F": {
-            "currentPrice": 0.33,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "82-83°F": {
-            "currentPrice": 0.32,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "84-85°F": {
-            "currentPrice": 0.12,
-            "outcomeHit15c": {
-              "price": 0.14,
-              "ts": "2026-03-04T22:56:39.401Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "86-87°F": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "88°F or higher": {
-            "currentPrice": 0.016,
-            "outcomeHit15c": {
-              "price": 0.017,
-              "ts": "2026-03-04T22:56:40.641Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       },
@@ -1826,25 +1553,16 @@
             "outcomeHit15c": null
           },
           "60-61°F": {
-            "currentPrice": 0.018,
-            "outcomeHit15c": {
-              "price": 0.019,
-              "ts": "2026-03-04T22:52:25.744Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "62-63°F": {
-            "currentPrice": 0.06,
-            "outcomeHit15c": {
-              "price": 0.06,
-              "ts": "2026-03-04T22:51:41.863Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "64-65°F": {
-            "currentPrice": 0.13,
-            "outcomeHit15c": {
-              "price": 0.13,
-              "ts": "2026-03-04T22:53:26.330Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "66-67°F": {
             "currentPrice": null,
@@ -1855,11 +1573,11 @@
             "outcomeHit15c": null
           },
           "70-71°F": {
-            "currentPrice": 0.19,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "72°F or higher": {
-            "currentPrice": 0.17,
+            "currentPrice": null,
             "outcomeHit15c": null
           }
         }
@@ -1868,54 +1586,39 @@
         "slug": "highest-temperature-in-ankara-on-march-6-2026",
         "outcomes": {
           "4°C or below": {
-            "currentPrice": 0.007,
-            "outcomeHit15c": {
-              "price": 0.007,
-              "ts": "2026-03-04T22:52:14.067Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "5°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.014,
-              "ts": "2026-03-04T22:52:14.078Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "6°C": {
-            "currentPrice": 0.035,
-            "outcomeHit15c": {
-              "price": 0.036,
-              "ts": "2026-03-04T22:51:51.444Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "7°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.044,
-              "ts": "2026-03-04T22:52:10.709Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "8°C": {
-            "currentPrice": 0.07,
-            "outcomeHit15c": {
-              "price": 0.07,
-              "ts": "2026-03-04T22:52:14.084Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "9°C": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "10°C": {
-            "currentPrice": 0.33,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "11°C": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "12°C or higher": {
-            "currentPrice": 0.2,
+            "currentPrice": null,
             "outcomeHit15c": null
           }
         }
@@ -1924,74 +1627,72 @@
         "slug": "highest-temperature-in-wellington-on-march-6-2026",
         "outcomes": {
           "14°C or below": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.006,
-              "ts": "2026-03-04T22:57:47.065Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "15°C": {
             "currentPrice": 0.015,
             "outcomeHit15c": {
               "price": 0.015,
-              "ts": "2026-03-04T22:56:16.494Z"
+              "ts": "2026-03-04T23:00:52.916Z"
             }
           },
           "16°C": {
-            "currentPrice": 0.999,
-            "outcomeHit15c": {
-              "price": 0.026,
-              "ts": "2026-03-04T22:56:16.092Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "17°C": {
-            "currentPrice": 0.99,
-            "outcomeHit15c": {
-              "price": 0.06,
-              "ts": "2026-03-04T22:56:16.074Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "18°C": {
-            "currentPrice": 0.25,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "19°C": {
-            "currentPrice": 0.99,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "20°C": {
-            "currentPrice": 0.34,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "21°C": {
-            "currentPrice": 0.14,
-            "outcomeHit15c": {
-              "price": 0.14,
-              "ts": "2026-03-04T22:56:16.086Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "22°C or higher": {
-            "currentPrice": 0.99,
-            "outcomeHit15c": {
-              "price": 0.04,
-              "ts": "2026-03-04T22:56:08.065Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           }
         }
       },
       "lucknow": {
         "slug": "highest-temperature-in-lucknow-on-march-6-2026",
         "outcomes": {
+          "34°C or below": {
+            "currentPrice": null,
+            "outcomeHit15c": null
+          },
+          "35°C": {
+            "currentPrice": null,
+            "outcomeHit15c": null
+          },
+          "36°C": {
+            "currentPrice": null,
+            "outcomeHit15c": null
+          },
+          "37°C": {
+            "currentPrice": null,
+            "outcomeHit15c": null
+          },
           "38°C": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "39°C": {
-            "currentPrice": 0.037,
-            "outcomeHit15c": {
-              "price": 0.049,
-              "ts": "2026-03-04T22:51:46.336Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "40°C": {
             "currentPrice": null,
@@ -2004,22 +1705,6 @@
           "42°C or higher": {
             "currentPrice": null,
             "outcomeHit15c": null
-          },
-          "34°C or below": {
-            "currentPrice": 0.75,
-            "outcomeHit15c": null
-          },
-          "35°C": {
-            "currentPrice": 0.26,
-            "outcomeHit15c": null
-          },
-          "36°C": {
-            "currentPrice": 0.17,
-            "outcomeHit15c": null
-          },
-          "37°C": {
-            "currentPrice": 0.16,
-            "outcomeHit15c": null
           }
         }
       },
@@ -2031,26 +1716,23 @@
             "outcomeHit15c": null
           },
           "10°C": {
-            "currentPrice": 0.07,
-            "outcomeHit15c": {
-              "price": 0.066,
-              "ts": "2026-03-04T22:51:53.940Z"
-            }
+            "currentPrice": null,
+            "outcomeHit15c": null
           },
           "11°C": {
             "currentPrice": null,
             "outcomeHit15c": null
           },
           "12°C": {
-            "currentPrice": 0.22,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "13°C": {
-            "currentPrice": 0.26,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "14°C": {
-            "currentPrice": 0.36,
+            "currentPrice": null,
             "outcomeHit15c": null
           },
           "15°C": {
