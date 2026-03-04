@@ -1484,6 +1484,14 @@
         ],
         "logged": {},
         "slug": "highest-temperature-in-dallas-on-march-6-2026-75forbelow"
+      },
+      "lucknow": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-lucknow-on-march-6-2026-34corbelow"
       }
     }
   }
