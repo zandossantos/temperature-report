@@ -1452,6 +1452,22 @@
         ],
         "logged": {},
         "slug": "highest-temperature-in-chicago-on-march-6-2026-57forbelow"
+      },
+      "nyc": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-nyc-on-march-6-2026-33forbelow"
+      },
+      "miami": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-miami-on-march-6-2026-73forbelow"
       }
     }
   }
