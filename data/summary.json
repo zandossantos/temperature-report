@@ -1468,6 +1468,22 @@
         ],
         "logged": {},
         "slug": "highest-temperature-in-miami-on-march-6-2026-73forbelow"
+      },
+      "seoul": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-seoul-on-march-6-2026-neg-1corbelow"
+      },
+      "dallas": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-dallas-on-march-6-2026-75forbelow"
       }
     }
   }
