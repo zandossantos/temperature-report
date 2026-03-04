@@ -1871,6 +1871,10 @@
           "90°F or higher": {
             "price": 0.01,
             "ts": "2026-03-03T22:42:33.206Z"
+          },
+          "84-85°F": {
+            "price": 0.14,
+            "ts": "2026-03-04T00:08:11.452Z"
           }
         },
         "slug": "highest-temperature-in-dallas-on-march-5-2026-90forhigher"
