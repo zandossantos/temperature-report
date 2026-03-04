@@ -793,6 +793,10 @@
           "7°C": {
             "price": 0.13,
             "ts": "2026-03-04T04:22:10.727Z"
+          },
+          "5°C": {
+            "price": 0.011,
+            "ts": "2026-03-04T04:28:27.031Z"
           }
         },
         "slug": "highest-temperature-in-seoul-on-march-5-2026"
@@ -1048,6 +1052,10 @@
           "21°C": {
             "price": 0.11,
             "ts": "2026-03-04T04:21:48.033Z"
+          },
+          "16°C": {
+            "price": 0.012,
+            "ts": "2026-03-04T04:28:34.044Z"
           }
         },
         "slug": "highest-temperature-in-wellington-on-march-5-2026"
