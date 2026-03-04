@@ -1420,6 +1420,22 @@
         ],
         "logged": {},
         "slug": "highest-temperature-in-atlanta-on-march-6-2026-65forbelow"
+      },
+      "paris": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-paris-on-march-6-2026-13corbelow"
+      },
+      "toronto": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-toronto-on-march-6-2026-neg-3corbelow"
       }
     }
   }
