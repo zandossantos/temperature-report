@@ -62,7 +62,12 @@
           "32°C",
           "33°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "30°C": {
+            "price": 0.001,
+            "ts": "2026-03-04T04:43:41.062Z"
+          }
+        },
         "slug": "highest-temperature-in-buenos-aires-on-march-3-2026"
       },
       "toronto": {
@@ -252,6 +257,18 @@
           "16°C": {
             "price": 0.02,
             "ts": "2026-03-04T04:24:51.510Z"
+          },
+          "15°C": {
+            "price": 0.001,
+            "ts": "2026-03-04T04:42:25.168Z"
+          },
+          "14°C": {
+            "price": 0.001,
+            "ts": "2026-03-04T04:42:25.170Z"
+          },
+          "21°C or higher": {
+            "price": 0.013,
+            "ts": "2026-03-04T04:42:28.120Z"
           }
         },
         "slug": "highest-temperature-in-paris-on-march-4-2026"
