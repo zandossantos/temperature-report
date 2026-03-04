@@ -325,6 +325,10 @@
           "17°C": {
             "price": 0.14,
             "ts": "2026-03-04T06:40:49.288Z"
+          },
+          "18°C": {
+            "price": 0.1,
+            "ts": "2026-03-04T12:25:02.058Z"
           }
         },
         "slug": "highest-temperature-in-paris-on-march-4-2026"
