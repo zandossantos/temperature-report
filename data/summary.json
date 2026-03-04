@@ -1518,7 +1518,12 @@
           "No",
           "Yes"
         ],
-        "logged": {},
+        "logged": {
+          "Yes": {
+            "price": 0.08,
+            "ts": "2026-03-04T13:59:35.414Z"
+          }
+        },
         "slug": "highest-temperature-in-dallas-on-march-6-2026-75forbelow"
       },
       "lucknow": {
