@@ -1380,6 +1380,22 @@
         ],
         "logged": {},
         "slug": "highest-temperature-in-london-on-march-6-2026-13corbelow"
+      },
+      "wellington": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-wellington-on-march-6-2026-14corbelow"
+      },
+      "sao": {
+        "outcomes": [
+          "No",
+          "Yes"
+        ],
+        "logged": {},
+        "slug": "highest-temperature-in-sao-paulo-on-march-6-2026-26corbelow"
       }
     }
   }
