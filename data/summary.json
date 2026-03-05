@@ -253,6 +253,10 @@
           "32°C": {
             "price": 0.029,
             "ts": "2026-03-05T02:36:59.273Z"
+          },
+          "25°C or below": {
+            "price": 0.012,
+            "ts": "2026-03-05T02:44:48.012Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-5-2026"
@@ -585,6 +589,10 @@
           "52°F or higher": {
             "price": 0.008,
             "ts": "2026-03-05T02:33:38.050Z"
+          },
+          "40-41°F": {
+            "price": 0.1,
+            "ts": "2026-03-05T02:44:40.057Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-5-2026"
