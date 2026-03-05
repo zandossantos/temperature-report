@@ -278,6 +278,10 @@
           "21°C or higher": {
             "price": 0.06,
             "ts": "2026-03-05T02:36:44.064Z"
+          },
+          "20°C": {
+            "price": 0.14,
+            "ts": "2026-03-05T03:17:47.983Z"
           }
         },
         "slug": "highest-temperature-in-paris-on-march-5-2026"
