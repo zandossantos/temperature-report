@@ -71,7 +71,12 @@
           "32°C",
           "33°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "31°C": {
+            "price": 0.001,
+            "ts": "2026-03-05T03:01:44.070Z"
+          }
+        },
         "slug": "highest-temperature-in-sao-paulo-on-march-4-2026"
       },
       "buenos": {
@@ -154,7 +159,12 @@
           "48-49°F",
           "50°F or higher"
         ],
-        "logged": {},
+        "logged": {
+          "50°F or higher": {
+            "price": 0.001,
+            "ts": "2026-03-05T03:00:56.053Z"
+          }
+        },
         "slug": "highest-temperature-in-chicago-on-march-4-2026"
       }
     },
@@ -873,6 +883,10 @@
           "32°C": {
             "price": 0.02,
             "ts": "2026-03-05T02:56:56.416Z"
+          },
+          "30°C": {
+            "price": 0.08,
+            "ts": "2026-03-05T03:01:11.052Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-6-2026"
@@ -1109,6 +1123,10 @@
           "76-77°F": {
             "price": 0.11,
             "ts": "2026-03-05T02:36:50.074Z"
+          },
+          "70-71°F": {
+            "price": 0.014,
+            "ts": "2026-03-05T03:01:33.261Z"
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-6-2026"
