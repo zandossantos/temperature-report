@@ -859,6 +859,10 @@
           "23°C": {
             "price": 0.08,
             "ts": "2026-03-05T02:41:43.081Z"
+          },
+          "22°C": {
+            "price": 0.04,
+            "ts": "2026-03-05T02:47:04.213Z"
           }
         },
         "slug": "highest-temperature-in-buenos-aires-on-march-6-2026"
