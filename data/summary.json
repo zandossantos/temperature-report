@@ -839,6 +839,10 @@
           "17°C or below": {
             "price": 0.005,
             "ts": "2026-03-05T02:26:02.199Z"
+          },
+          "23°C": {
+            "price": 0.08,
+            "ts": "2026-03-05T02:41:43.081Z"
           }
         },
         "slug": "highest-temperature-in-buenos-aires-on-march-6-2026"
@@ -1063,6 +1067,10 @@
           "76-77°F": {
             "price": 0.057,
             "ts": "2026-03-05T02:28:36.992Z"
+          },
+          "74-75°F": {
+            "price": 0.019,
+            "ts": "2026-03-05T02:40:07.035Z"
           }
         },
         "slug": "highest-temperature-in-miami-on-march-6-2026"
@@ -1167,6 +1175,10 @@
           "15°C": {
             "price": 0.005,
             "ts": "2026-03-05T02:36:27.908Z"
+          },
+          "14°C or below": {
+            "price": 0.006,
+            "ts": "2026-03-05T02:41:06.957Z"
           }
         },
         "slug": "highest-temperature-in-wellington-on-march-6-2026"
