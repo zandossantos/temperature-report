@@ -92,7 +92,12 @@
           "56-57°F",
           "58°F or higher"
         ],
-        "logged": {},
+        "logged": {
+          "56-57°F": {
+            "price": 0.001,
+            "ts": "2026-03-05T02:04:24.049Z"
+          }
+        },
         "slug": "highest-temperature-in-seattle-on-march-4-2026"
       },
       "miami": {
@@ -183,6 +188,10 @@
           "13°C or below": {
             "price": 0.005,
             "ts": "2026-03-05T02:03:33.178Z"
+          },
+          "16°C": {
+            "price": 0.033,
+            "ts": "2026-03-05T02:05:14.063Z"
           }
         },
         "slug": "highest-temperature-in-paris-on-march-5-2026"
@@ -203,6 +212,22 @@
           "26°C": {
             "price": 0.032,
             "ts": "2026-03-05T02:03:26.540Z"
+          },
+          "25°C or below": {
+            "price": 0.01,
+            "ts": "2026-03-05T02:04:19.046Z"
+          },
+          "33°C or higher": {
+            "price": 0.005,
+            "ts": "2026-03-05T02:04:19.055Z"
+          },
+          "31°C": {
+            "price": 0.09,
+            "ts": "2026-03-05T02:04:19.058Z"
+          },
+          "32°C": {
+            "price": 0.03,
+            "ts": "2026-03-05T02:04:19.062Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-5-2026"
@@ -247,6 +272,14 @@
           "7°C": {
             "price": 0.038,
             "ts": "2026-03-05T02:03:33.048Z"
+          },
+          "5°C": {
+            "price": 0.001,
+            "ts": "2026-03-05T02:04:57.049Z"
+          },
+          "11°C or higher": {
+            "price": 0.08,
+            "ts": "2026-03-05T02:05:22.081Z"
           }
         },
         "slug": "highest-temperature-in-seoul-on-march-5-2026"
@@ -263,7 +296,20 @@
           "4°C",
           "5°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "-2°C": {
+            "price": 0.009,
+            "ts": "2026-03-05T02:04:34.316Z"
+          },
+          "-1°C": {
+            "price": 0.009,
+            "ts": "2026-03-05T02:04:34.549Z"
+          },
+          "-3°C or below": {
+            "price": 0.005,
+            "ts": "2026-03-05T02:05:01.048Z"
+          }
+        },
         "slug": "highest-temperature-in-toronto-on-march-5-2026"
       },
       "seattle": {
@@ -286,6 +332,10 @@
           "48-49°F": {
             "price": 0.14,
             "ts": "2026-03-05T02:03:52.048Z"
+          },
+          "46-47°F": {
+            "price": 0.048,
+            "ts": "2026-03-05T02:05:34.065Z"
           }
         },
         "slug": "highest-temperature-in-seattle-on-march-5-2026"
@@ -310,6 +360,10 @@
           "36-37°F": {
             "price": 0.034,
             "ts": "2026-03-05T02:03:32.050Z"
+          },
+          "50°F or higher": {
+            "price": 0.011,
+            "ts": "2026-03-05T02:05:55.063Z"
           }
         },
         "slug": "highest-temperature-in-nyc-on-march-5-2026"
@@ -330,6 +384,26 @@
           "75°F or below": {
             "price": 0.109,
             "ts": "2026-03-05T02:03:29.281Z"
+          },
+          "88-89°F": {
+            "price": 0.009,
+            "ts": "2026-03-05T02:04:02.008Z"
+          },
+          "84-85°F": {
+            "price": 0.04,
+            "ts": "2026-03-05T02:04:06.173Z"
+          },
+          "86-87°F": {
+            "price": 0.012,
+            "ts": "2026-03-05T02:04:06.845Z"
+          },
+          "90°F or higher": {
+            "price": 0.005,
+            "ts": "2026-03-05T02:04:08.176Z"
+          },
+          "76-77°F": {
+            "price": 0.14,
+            "ts": "2026-03-05T02:04:56.386Z"
           }
         },
         "slug": "highest-temperature-in-dallas-on-march-5-2026"
@@ -350,6 +424,10 @@
           "67°F or below": {
             "price": 0.009,
             "ts": "2026-03-05T02:03:59.888Z"
+          },
+          "76-77°F": {
+            "price": 0.11,
+            "ts": "2026-03-05T02:04:42.052Z"
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-5-2026"
@@ -366,7 +444,16 @@
           "84-85°F",
           "86°F or higher"
         ],
-        "logged": {},
+        "logged": {
+          "78-79°F": {
+            "price": 0.08,
+            "ts": "2026-03-05T02:04:50.658Z"
+          },
+          "86°F or higher": {
+            "price": 0.035,
+            "ts": "2026-03-05T02:05:47.294Z"
+          }
+        },
         "slug": "highest-temperature-in-miami-on-march-5-2026"
       },
       "chicago": {
@@ -381,7 +468,32 @@
           "50-51°F",
           "52°F or higher"
         ],
-        "logged": {},
+        "logged": {
+          "52°F or higher": {
+            "price": 0.008,
+            "ts": "2026-03-05T02:04:47.017Z"
+          },
+          "50-51°F": {
+            "price": 0.015,
+            "ts": "2026-03-05T02:04:50.060Z"
+          },
+          "37°F or below": {
+            "price": 0.002,
+            "ts": "2026-03-05T02:04:50.069Z"
+          },
+          "38-39°F": {
+            "price": 0.016,
+            "ts": "2026-03-05T02:04:50.078Z"
+          },
+          "40-41°F": {
+            "price": 0.1,
+            "ts": "2026-03-05T02:04:50.090Z"
+          },
+          "48-49°F": {
+            "price": 0.08,
+            "ts": "2026-03-05T02:04:50.101Z"
+          }
+        },
         "slug": "highest-temperature-in-chicago-on-march-5-2026"
       },
       "ankara": {
@@ -411,7 +523,16 @@
           "21°C",
           "22°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "19°C": {
+            "price": 0.002,
+            "ts": "2026-03-05T02:04:18.774Z"
+          },
+          "21°C": {
+            "price": 0.02,
+            "ts": "2026-03-05T02:04:25.104Z"
+          }
+        },
         "slug": "highest-temperature-in-wellington-on-march-5-2026"
       },
       "lucknow": {
@@ -476,7 +597,16 @@
           "20°C",
           "21°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "18°C": {
+            "price": 0.027,
+            "ts": "2026-03-05T02:04:05.236Z"
+          },
+          "15°C": {
+            "price": 0.14,
+            "ts": "2026-03-05T02:04:27.047Z"
+          }
+        },
         "slug": "highest-temperature-in-london-on-march-6-2026"
       },
       "paris": {
@@ -495,6 +625,14 @@
           "16°C": {
             "price": 0.034,
             "ts": "2026-03-05T02:03:48.052Z"
+          },
+          "17°C": {
+            "price": 0.12,
+            "ts": "2026-03-05T02:05:42.048Z"
+          },
+          "15°C": {
+            "price": 0.016,
+            "ts": "2026-03-05T02:05:48.078Z"
           }
         },
         "slug": "highest-temperature-in-paris-on-march-6-2026"
@@ -511,7 +649,12 @@
           "33°C",
           "34°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "26°C or below": {
+            "price": 0.139,
+            "ts": "2026-03-05T02:05:05.384Z"
+          }
+        },
         "slug": "highest-temperature-in-sao-paulo-on-march-6-2026"
       },
       "buenos": {
@@ -561,7 +704,12 @@
           "4°C",
           "5°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "0°C": {
+            "price": 0.046,
+            "ts": "2026-03-05T02:04:18.389Z"
+          }
+        },
         "slug": "highest-temperature-in-toronto-on-march-6-2026"
       },
       "seattle": {
@@ -580,6 +728,10 @@
           "46-47°F": {
             "price": 0.069,
             "ts": "2026-03-05T02:03:41.099Z"
+          },
+          "44-45°F": {
+            "price": 0.026,
+            "ts": "2026-03-05T02:04:21.262Z"
           }
         },
         "slug": "highest-temperature-in-seattle-on-march-6-2026"
@@ -670,6 +822,10 @@
           "64-65°F": {
             "price": 0.14,
             "ts": "2026-03-05T02:03:53.910Z"
+          },
+          "62-63°F": {
+            "price": 0.039,
+            "ts": "2026-03-05T02:05:32.208Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-6-2026"
@@ -741,7 +897,12 @@
           "41°C",
           "42°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "39°C": {
+            "price": 0.048,
+            "ts": "2026-03-05T02:04:43.531Z"
+          }
+        },
         "slug": "highest-temperature-in-lucknow-on-march-6-2026"
       },
       "munich": {
