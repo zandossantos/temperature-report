@@ -125,7 +125,16 @@
           "88-89°F",
           "90°F or higher"
         ],
-        "logged": {},
+        "logged": {
+          "84-85°F": {
+            "price": 0.001,
+            "ts": "2026-03-05T02:50:02.066Z"
+          },
+          "86-87°F": {
+            "price": 0.001,
+            "ts": "2026-03-05T02:50:22.054Z"
+          }
+        },
         "slug": "highest-temperature-in-miami-on-march-4-2026"
       },
       "chicago": {
@@ -689,6 +698,10 @@
           "37°C": {
             "price": 0.013,
             "ts": "2026-03-05T02:26:59.049Z"
+          },
+          "39°C": {
+            "price": 0.005,
+            "ts": "2026-03-05T02:51:45.066Z"
           }
         },
         "slug": "highest-temperature-in-lucknow-on-march-5-2026"
@@ -991,6 +1004,10 @@
           "34-35°F": {
             "price": 0.017,
             "ts": "2026-03-05T02:30:52.663Z"
+          },
+          "33°F or below": {
+            "price": 0.007,
+            "ts": "2026-03-05T02:50:32.053Z"
           }
         },
         "slug": "highest-temperature-in-nyc-on-march-6-2026"
