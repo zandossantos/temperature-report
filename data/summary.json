@@ -337,6 +337,10 @@
           "5°C or higher": {
             "price": 0.1,
             "ts": "2026-03-05T02:07:33.680Z"
+          },
+          "1°C": {
+            "price": 0.07,
+            "ts": "2026-03-05T02:14:29.045Z"
           }
         },
         "slug": "highest-temperature-in-toronto-on-march-5-2026"
@@ -657,6 +661,10 @@
           "42°C or higher": {
             "price": 0.003,
             "ts": "2026-03-05T02:12:33.601Z"
+          },
+          "36°C": {
+            "price": 0.013,
+            "ts": "2026-03-05T02:15:08.878Z"
           }
         },
         "slug": "highest-temperature-in-lucknow-on-march-5-2026"
@@ -755,6 +763,14 @@
           "15°C": {
             "price": 0.016,
             "ts": "2026-03-05T02:05:48.078Z"
+          },
+          "14°C": {
+            "price": 0.006,
+            "ts": "2026-03-05T02:14:24.050Z"
+          },
+          "13°C or below": {
+            "price": 0.003,
+            "ts": "2026-03-05T02:14:24.062Z"
           }
         },
         "slug": "highest-temperature-in-paris-on-march-6-2026"
@@ -839,6 +855,14 @@
           "3°C": {
             "price": 0.07,
             "ts": "2026-03-05T02:07:48.863Z"
+          },
+          "0°C": {
+            "price": 0.018,
+            "ts": "2026-03-05T02:14:23.062Z"
+          },
+          "-1°C or below": {
+            "price": 0.015,
+            "ts": "2026-03-05T02:14:23.073Z"
           }
         },
         "slug": "highest-temperature-in-seoul-on-march-6-2026"
