@@ -241,6 +241,10 @@
           "32°C": {
             "price": 0.03,
             "ts": "2026-03-05T02:04:19.062Z"
+          },
+          "27°C": {
+            "price": 0.14,
+            "ts": "2026-03-05T02:12:03.962Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-5-2026"
@@ -437,6 +441,10 @@
           "76-77°F": {
             "price": 0.14,
             "ts": "2026-03-05T02:04:56.386Z"
+          },
+          "82-83°F": {
+            "price": 0.14,
+            "ts": "2026-03-05T02:13:25.106Z"
           }
         },
         "slug": "highest-temperature-in-dallas-on-march-5-2026"
@@ -645,6 +653,10 @@
           "38°C": {
             "price": 0.026,
             "ts": "2026-03-05T02:03:59.192Z"
+          },
+          "42°C or higher": {
+            "price": 0.003,
+            "ts": "2026-03-05T02:12:33.601Z"
           }
         },
         "slug": "highest-temperature-in-lucknow-on-march-5-2026"
@@ -1050,6 +1062,10 @@
           "12°C or higher": {
             "price": 0.12,
             "ts": "2026-03-05T02:06:10.045Z"
+          },
+          "8°C": {
+            "price": 0.07,
+            "ts": "2026-03-05T02:13:19.048Z"
           }
         },
         "slug": "highest-temperature-in-ankara-on-march-6-2026"
