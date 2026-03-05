@@ -831,6 +831,10 @@
           "31°C": {
             "price": 0.039,
             "ts": "2026-03-05T02:36:40.052Z"
+          },
+          "34°C or higher": {
+            "price": 0.01,
+            "ts": "2026-03-05T02:48:57.831Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-6-2026"
