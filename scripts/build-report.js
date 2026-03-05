@@ -17,6 +17,27 @@ function normalizeEventSlug(slug) {
   return s.replace(/-\d+([cf]|-\d+[cf])?$/i, '');
 }
 
+/** Ensure slug matches Polymarket URL format: highest-temperature-in-{city}-on-{month}-{day}-{year} (e.g. march-6-2026). Appends year from dateKey if slug has no year. */
+function toPolymarketSlugFormat(slug, dateKey) {
+  if (!slug || typeof slug !== 'string') return '';
+  let s = normalizeEventSlug(slug).toLowerCase().trim();
+  if (!s) return '';
+  const monthDayYear = s.match(/-on-(january|february|march|april|may|june|july|august|september|october|november|december)-(\d{1,2})-(\d{4})$/);
+  if (monthDayYear) {
+    const month = monthDayYear[1];
+    const day = String(parseInt(monthDayYear[2], 10));
+    const year = monthDayYear[3];
+    s = s.replace(/-on-(january|february|march|april|may|june|july|august|september|october|november|december)-\d{1,2}-\d{4}$/, `-on-${month}-${day}-${year}`);
+    return s;
+  }
+  const monthDayOnly = s.match(/-on-(january|february|march|april|may|june|july|august|september|october|november|december)-(\d{1,2})$/);
+  if (monthDayOnly && dateKey && typeof dateKey === 'string') {
+    const m = dateKey.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (m) s = s + '-' + m[1];
+  }
+  return s;
+}
+
 function isValidDateKey(dateKey) {
   if (!dateKey || typeof dateKey !== 'string') return false;
   const m = dateKey.match(/^(\d{4})-(\d{2})-(\d{2})$/);
@@ -26,34 +47,37 @@ function isValidDateKey(dateKey) {
   return month >= 1 && month <= 12 && day >= 1 && day <= 31;
 }
 
-/** Safe: always returns arrays for outcomes/loggedList/missing. Handles new shape { slug, outcomes: { [name]: { currentPrice, outcomeHit15c } } } and skips old array shape. */
+/** Safe: always returns arrays. Handles old shape (outcomes = string[], logged = { [o]: { price, ts } }) and new (outcomes = { [o]: { currentPrice, outcomeHit15c } }). */
 function normalizeCellForReport(cell) {
   const empty = { outcomes: [], loggedList: [], missing: [], outcomeDetails: {}, slug: '' };
   if (!cell || typeof cell !== 'object') return empty;
   const slug = (cell.slug != null && typeof cell.slug === 'string') ? cell.slug.trim() : '';
   const rawOutcomes = cell.outcomes;
-  if (rawOutcomes == null || typeof rawOutcomes !== 'object') return empty;
+  const rawLogged = cell.logged && typeof cell.logged === 'object' ? cell.logged : {};
+  if (rawOutcomes == null) return empty;
   const outcomeDetails = {};
-  let outcomes;
+  let outcomes = [];
+  const loggedList = [];
+
   if (Array.isArray(rawOutcomes)) {
-    outcomes = [];
-  } else {
+    outcomes = rawOutcomes.slice().sort();
+    for (const o of outcomes) {
+      const hit = rawLogged[o];
+      outcomeDetails[o] = { currentPrice: null, outcomeHit15c: hit && typeof hit === 'object' ? { price: hit.price, ts: hit.ts } : null };
+      if (hit) loggedList.push([o, hit]);
+    }
+  } else if (typeof rawOutcomes === 'object') {
     try {
-      outcomes = Object.keys(rawOutcomes);
-      if (!Array.isArray(outcomes)) outcomes = [];
-      else outcomes = outcomes.slice().sort();
-    } catch (_) {
-      outcomes = [];
+      outcomes = Object.keys(rawOutcomes).slice().sort();
+    } catch (_) {}
+    for (const o of outcomes) {
+      const v = rawOutcomes[o];
+      outcomeDetails[o] = v && typeof v === 'object' ? { currentPrice: v.currentPrice, outcomeHit15c: v.outcomeHit15c } : { currentPrice: null, outcomeHit15c: null };
+      if (outcomeDetails[o].outcomeHit15c) loggedList.push([o, outcomeDetails[o].outcomeHit15c]);
     }
   }
-  const loggedList = [];
-  for (const o of outcomes) {
-    const v = rawOutcomes[o];
-    outcomeDetails[o] = v && typeof v === 'object' ? { currentPrice: v.currentPrice, outcomeHit15c: v.outcomeHit15c } : { currentPrice: null, outcomeHit15c: null };
-    if (v && v.outcomeHit15c) loggedList.push([o, v.outcomeHit15c]);
-  }
-  const missing = Array.isArray(outcomes) ? outcomes.filter((o) => !(outcomeDetails[o] && outcomeDetails[o].outcomeHit15c)) : [];
-  return { outcomes: outcomes || [], loggedList, missing, outcomeDetails, slug };
+  const missing = outcomes.filter((o) => !(outcomeDetails[o] && outcomeDetails[o].outcomeHit15c));
+  return { outcomes, loggedList, missing, outcomeDetails, slug };
 }
 
 function buildHtml(summary) {
@@ -78,7 +102,7 @@ function buildHtml(summary) {
       totalOutcomes += outcomes.length;
       totalLogged += loggedList.length;
       const pct = Math.round((loggedList.length / outcomes.length) * 100);
-      const slug = cellSlug ? (normalizeEventSlug(cellSlug) || cellSlug) : '';
+      const slug = cellSlug ? (toPolymarketSlugFormat(cellSlug, date) || cellSlug.toLowerCase().trim()) : '';
       byDateKey[date].push({
         date,
         city,
