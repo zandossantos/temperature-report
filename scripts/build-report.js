@@ -240,7 +240,23 @@ function main() {
     process.exit(1);
   }
   const summary = JSON.parse(fs.readFileSync(SUMMARY_PATH, 'utf8'));
-  const html = buildHtml(summary);
+  let byDate = summary.by_date || {};
+  if (Object.keys(byDate).length === 0 && typeof summary === 'object') {
+    const topKeys = Object.keys(summary).filter((k) => isValidDateKey(k));
+    if (topKeys.length > 0) {
+      byDate = summary;
+      console.warn('summary.json has no "by_date" wrapper; using top-level date keys.');
+    }
+  }
+  const dateCount = Object.keys(byDate).length;
+  let cellCount = 0;
+  for (const cities of Object.values(byDate)) cellCount += Object.keys(cities || {}).length;
+  if (dateCount === 0 || cellCount === 0) {
+    console.warn('summary.json has no data: by_date has %s date(s), %s city cell(s). Push script must run after tracker has written data.', dateCount, cellCount);
+  } else {
+    console.log('Building report from %s date(s), %s city cell(s)', dateCount, cellCount);
+  }
+  const html = buildHtml({ by_date: byDate });
   const outDir = path.dirname(OUTPUT_PATH);
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(OUTPUT_PATH, html, 'utf8');
