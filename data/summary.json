@@ -310,6 +310,10 @@
           "11°C or higher": {
             "price": 0.08,
             "ts": "2026-03-05T02:05:22.081Z"
+          },
+          "8°C": {
+            "price": 0.14,
+            "ts": "2026-03-05T02:19:09.461Z"
           }
         },
         "slug": "highest-temperature-in-seoul-on-march-5-2026"
@@ -702,6 +706,14 @@
           "17°C or higher": {
             "price": 0.07,
             "ts": "2026-03-05T02:09:59.048Z"
+          },
+          "10°C": {
+            "price": 0.006,
+            "ts": "2026-03-05T02:19:34.052Z"
+          },
+          "16°C": {
+            "price": 0.11,
+            "ts": "2026-03-05T02:19:34.064Z"
           }
         },
         "slug": "highest-temperature-in-munich-on-march-5-2026"
@@ -744,6 +756,10 @@
           "16°C": {
             "price": 0.14,
             "ts": "2026-03-05T02:10:16.044Z"
+          },
+          "20°C": {
+            "price": 0.009,
+            "ts": "2026-03-05T02:18:04.295Z"
           }
         },
         "slug": "highest-temperature-in-london-on-march-6-2026"
@@ -836,6 +852,10 @@
           "22°C": {
             "price": 0.047,
             "ts": "2026-03-05T02:07:04.077Z"
+          },
+          "21°C": {
+            "price": 0.019,
+            "ts": "2026-03-05T02:18:42.982Z"
           }
         },
         "slug": "highest-temperature-in-buenos-aires-on-march-6-2026"
@@ -964,6 +984,10 @@
           "44-45°F": {
             "price": 0.1,
             "ts": "2026-03-05T02:16:43.048Z"
+          },
+          "48°F or higher": {
+            "price": 0.024,
+            "ts": "2026-03-05T02:19:27.167Z"
           }
         },
         "slug": "highest-temperature-in-nyc-on-march-6-2026"
@@ -1011,6 +1035,10 @@
           "70-71°F": {
             "price": 0.013,
             "ts": "2026-03-05T02:11:10.049Z"
+          },
+          "65°F or below": {
+            "price": 0.009,
+            "ts": "2026-03-05T02:18:43.070Z"
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-6-2026"
@@ -1047,6 +1075,10 @@
           "88°F or higher": {
             "price": 0.019,
             "ts": "2026-03-05T02:08:38.615Z"
+          },
+          "74-75°F": {
+            "price": 0.02,
+            "ts": "2026-03-05T02:19:01.183Z"
           }
         },
         "slug": "highest-temperature-in-miami-on-march-6-2026"
@@ -1103,6 +1135,10 @@
           "8°C": {
             "price": 0.07,
             "ts": "2026-03-05T02:13:19.048Z"
+          },
+          "6°C": {
+            "price": 0.019,
+            "ts": "2026-03-05T02:18:33.590Z"
           }
         },
         "slug": "highest-temperature-in-ankara-on-march-6-2026"
