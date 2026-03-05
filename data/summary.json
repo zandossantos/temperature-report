@@ -60,6 +60,10 @@
           "13°C": {
             "price": 0.001,
             "ts": "2026-03-05T02:39:36.070Z"
+          },
+          "15°C": {
+            "price": 0.001,
+            "ts": "2026-03-05T03:07:57.061Z"
           }
         },
         "slug": "highest-temperature-in-london-on-march-4-2026"
@@ -124,6 +128,10 @@
           "54-55°F": {
             "price": 0.001,
             "ts": "2026-03-05T02:54:02.065Z"
+          },
+          "52-53°F": {
+            "price": 0.001,
+            "ts": "2026-03-05T03:06:50.064Z"
           }
         },
         "slug": "highest-temperature-in-seattle-on-march-4-2026"
@@ -148,6 +156,10 @@
           "86-87°F": {
             "price": 0.001,
             "ts": "2026-03-05T02:50:22.054Z"
+          },
+          "82-83°F": {
+            "price": 0.001,
+            "ts": "2026-03-05T03:07:48.054Z"
           }
         },
         "slug": "highest-temperature-in-miami-on-march-4-2026"
@@ -940,6 +952,10 @@
           "22°C": {
             "price": 0.04,
             "ts": "2026-03-05T02:47:04.213Z"
+          },
+          "21°C": {
+            "price": 0.019,
+            "ts": "2026-03-05T03:07:50.062Z"
           }
         },
         "slug": "highest-temperature-in-buenos-aires-on-march-6-2026"
