@@ -51,6 +51,10 @@
           "14°C": {
             "price": 0.001,
             "ts": "2026-03-05T02:25:15.052Z"
+          },
+          "13°C": {
+            "price": 0.001,
+            "ts": "2026-03-05T02:39:36.070Z"
           }
         },
         "slug": "highest-temperature-in-london-on-march-4-2026"
@@ -425,6 +429,10 @@
           "35°F or below": {
             "price": 0.003,
             "ts": "2026-03-05T02:25:45.651Z"
+          },
+          "48-49°F": {
+            "price": 0.013,
+            "ts": "2026-03-05T02:39:25.089Z"
           }
         },
         "slug": "highest-temperature-in-nyc-on-march-5-2026"
@@ -601,6 +609,10 @@
           "8°C": {
             "price": 0.014,
             "ts": "2026-03-05T02:32:48.948Z"
+          },
+          "6°C": {
+            "price": 0.006,
+            "ts": "2026-03-05T02:38:49.934Z"
           }
         },
         "slug": "highest-temperature-in-ankara-on-march-5-2026"
