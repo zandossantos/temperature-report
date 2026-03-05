@@ -63,6 +63,10 @@
           "19°C": {
             "price": 0.001,
             "ts": "2026-03-05T01:42:56.055Z"
+          },
+          "14°C": {
+            "price": 0.001,
+            "ts": "2026-03-05T01:53:17.069Z"
           }
         },
         "slug": "highest-temperature-in-london-on-march-4-2026"
@@ -94,7 +98,12 @@
           "32°C",
           "33°C or higher"
         ],
-        "logged": {},
+        "logged": {
+          "31°C": {
+            "price": 0.001,
+            "ts": "2026-03-05T01:53:17.066Z"
+          }
+        },
         "slug": "highest-temperature-in-sao-paulo-on-march-4-2026"
       },
       "buenos": {
@@ -117,6 +126,10 @@
           "36°C": {
             "price": 0.001,
             "ts": "2026-03-05T01:38:34.059Z"
+          },
+          "37°C": {
+            "price": 0.001,
+            "ts": "2026-03-05T01:53:17.056Z"
           }
         },
         "slug": "highest-temperature-in-buenos-aires-on-march-4-2026"
@@ -303,6 +316,10 @@
           "31°C": {
             "price": 0.1,
             "ts": "2026-03-05T01:43:34.236Z"
+          },
+          "26°C": {
+            "price": 0.031,
+            "ts": "2026-03-05T01:53:02.419Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-5-2026"
@@ -1109,6 +1126,10 @@
           "73°F or below": {
             "price": 0.014,
             "ts": "2026-03-05T01:50:24.842Z"
+          },
+          "88°F or higher": {
+            "price": 0.02,
+            "ts": "2026-03-05T01:53:36.921Z"
           }
         },
         "slug": "highest-temperature-in-miami-on-march-6-2026"
