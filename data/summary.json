@@ -541,6 +541,10 @@
           "50-51°F": {
             "price": 0.014,
             "ts": "2026-03-05T02:28:08.078Z"
+          },
+          "52°F or higher": {
+            "price": 0.008,
+            "ts": "2026-03-05T02:33:38.050Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-5-2026"
@@ -569,6 +573,10 @@
           "9°C": {
             "price": 0.033,
             "ts": "2026-03-05T02:26:01.923Z"
+          },
+          "8°C": {
+            "price": 0.014,
+            "ts": "2026-03-05T02:32:48.948Z"
           }
         },
         "slug": "highest-temperature-in-ankara-on-march-5-2026"
@@ -593,6 +601,10 @@
           "21°C": {
             "price": 0.019,
             "ts": "2026-03-05T02:24:26.052Z"
+          },
+          "19°C": {
+            "price": 0.001,
+            "ts": "2026-03-05T02:32:16.061Z"
           }
         },
         "slug": "highest-temperature-in-wellington-on-march-5-2026"
@@ -645,6 +657,10 @@
           "11°C": {
             "price": 0.037,
             "ts": "2026-03-05T02:23:12.842Z"
+          },
+          "9°C or below": {
+            "price": 0.054,
+            "ts": "2026-03-05T02:32:13.049Z"
           }
         },
         "slug": "highest-temperature-in-munich-on-march-5-2026"
@@ -722,6 +738,10 @@
           "33°C": {
             "price": 0.028,
             "ts": "2026-03-05T02:30:41.577Z"
+          },
+          "26°C or below": {
+            "price": 0.147,
+            "ts": "2026-03-05T02:32:12.325Z"
           }
         },
         "slug": "highest-temperature-in-sao-paulo-on-march-6-2026"
@@ -918,6 +938,10 @@
           "72-73°F": {
             "price": 0.018,
             "ts": "2026-03-05T02:29:29.891Z"
+          },
+          "65°F or below": {
+            "price": 0.009,
+            "ts": "2026-03-05T02:32:10.574Z"
           }
         },
         "slug": "highest-temperature-in-atlanta-on-march-6-2026"
@@ -998,6 +1022,14 @@
           "12°C or higher": {
             "price": 0.14,
             "ts": "2026-03-05T02:26:17.046Z"
+          },
+          "7°C": {
+            "price": 0.036,
+            "ts": "2026-03-05T02:32:25.049Z"
+          },
+          "4°C or below": {
+            "price": 0.007,
+            "ts": "2026-03-05T02:33:33.077Z"
           }
         },
         "slug": "highest-temperature-in-ankara-on-march-6-2026"
