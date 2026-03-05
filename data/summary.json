@@ -30,7 +30,12 @@
           "52-53°F",
           "54°F or higher"
         ],
-        "logged": {},
+        "logged": {
+          "40-41°F": {
+            "price": 0.004,
+            "ts": "2026-03-05T03:04:58.057Z"
+          }
+        },
         "slug": "highest-temperature-in-seattle-on-february-25-2026"
       }
     },
@@ -637,6 +642,10 @@
           "40-41°F": {
             "price": 0.1,
             "ts": "2026-03-05T02:44:40.057Z"
+          },
+          "37°F or below": {
+            "price": 0.003,
+            "ts": "2026-03-05T03:05:03.059Z"
           }
         },
         "slug": "highest-temperature-in-chicago-on-march-5-2026"
@@ -741,6 +750,10 @@
           "39°C": {
             "price": 0.005,
             "ts": "2026-03-05T02:51:45.066Z"
+          },
+          "42°C or higher": {
+            "price": 0.001,
+            "ts": "2026-03-05T03:05:47.347Z"
           }
         },
         "slug": "highest-temperature-in-lucknow-on-march-5-2026"
@@ -991,6 +1004,10 @@
           "-3°C or below": {
             "price": 0.012,
             "ts": "2026-03-05T02:59:22.062Z"
+          },
+          "-1°C": {
+            "price": 0.026,
+            "ts": "2026-03-05T03:04:55.020Z"
           }
         },
         "slug": "highest-temperature-in-toronto-on-march-6-2026"
