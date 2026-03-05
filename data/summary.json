@@ -110,7 +110,12 @@
           "56-57°F",
           "58°F or higher"
         ],
-        "logged": {},
+        "logged": {
+          "54-55°F": {
+            "price": 0.001,
+            "ts": "2026-03-05T02:54:02.065Z"
+          }
+        },
         "slug": "highest-temperature-in-seattle-on-march-4-2026"
       },
       "miami": {
@@ -642,6 +647,10 @@
           "6°C": {
             "price": 0.006,
             "ts": "2026-03-05T02:38:49.934Z"
+          },
+          "10°C": {
+            "price": 0.14,
+            "ts": "2026-03-05T02:55:38.100Z"
           }
         },
         "slug": "highest-temperature-in-ankara-on-march-5-2026"
